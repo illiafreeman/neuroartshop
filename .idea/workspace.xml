@@ -4,7 +4,106 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="722ecbfa-e904-434b-a86d-9272e1d3e0a6" name="Default Changelist" comment="" />
+    <list default="true" id="722ecbfa-e904-434b-a86d-9272e1d3e0a6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/neuroartshop-html.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/cart-page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/catalog.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/css/.sass-cache/be2a1e5ac0ee6a0a8afdc46a011b62caef5cc491/master.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/css/master.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/css/master.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/css/master.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/discounts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/dostavka-i-oplata.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/fonts/FactorA-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/fonts/FactorA-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/fonts/FactorALight-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/fonts/FactorAMedium-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/fonts/Montserrat-Black.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/fonts/Montserrat-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/fonts/Montserrat-ExtraBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/fonts/Montserrat-ExtraLight.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/fonts/Montserrat-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/fonts/Montserrat-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/fonts/Montserrat-Thin.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/img/CultNailTeam.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/img/about-company.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/img/catalog/catalog-image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/img/catalog/product.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/img/chto-my-delaem.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/img/discounts.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/img/dostavka-i-oplata.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/img/favourites.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/img/footer-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/img/icons/arrow-right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/img/icons/arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/img/icons/cart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/img/icons/close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/img/icons/contact-crown.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/img/icons/contact-heart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/img/icons/contact-light.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/img/icons/crown.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/img/icons/dostavka-po-miru.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/img/icons/favourite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/img/icons/footer-tg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/img/icons/footer-vk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/img/icons/footer-wh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/img/icons/heart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/img/icons/left-b.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/img/icons/left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/img/icons/light.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/img/icons/lk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/img/icons/loupe.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/img/icons/menu-hamburger.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/img/icons/min-sum.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/img/icons/nakopitelnaya-programma.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/img/icons/righ-menu-btn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/img/icons/right-b.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/img/icons/right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/img/icons/star.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/img/icons/t.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/img/icons/udobnaya-oplata.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/img/icons/v.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/img/icons/w.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/img/kontakty.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/img/most-popular/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/img/most-popular/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/img/most-popular/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/img/most-popular/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/img/most-popular/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/img/most-popular/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/img/prostranstvo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/img/slider/popular-products/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/img/slider/popular-products/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/img/slider/popular-products/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/img/slider/popular-products/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/img/slider/slide-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/img/stocks/-15-na-oborudovanie.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/img/stocks/-20-na-sredstva-dlya-dezinfekcii.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/img/stocks/-28-na-gel-laki-diva-.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/img/stocks/-30-na-kraski.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/img/stocks/31-gel-laki--cosmolac.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/img/team/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/img/team/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/img/team/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/img/whom-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/img/whom-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/img/whom-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/izbrannoe.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/js/drop-list.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/js/master.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/js/product-card-nav.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/kontakty.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/o-kompanii.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/product-card.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,7 +112,11 @@
   <component name="ComposerSettings">
     <execution />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="2CGM1oTLO2hd0c12SVGSntinORM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -21,6 +124,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -32,21 +136,47 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1658424255428</updated>
-      <workItem from="1658424256459" duration="98000" />
+      <workItem from="1658424256459" duration="416000" />
     </task>
+    <task id="LOCAL-00001" summary="start">
+      <created>1658424632092</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1658424632092</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="start" />
+    <option name="LAST_COMMIT_MESSAGE" value="start" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="559" y="266" key="CommitChangelistDialog2" timestamp="1658424631297">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="559" y="266" key="CommitChangelistDialog2/0.0.1920.1160@0.0.1920.1160" timestamp="1658424631297" />
     <state x="628" y="357" key="EditFileWatcherDialog" timestamp="1658424350938">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="628" y="357" key="EditFileWatcherDialog/0.0.1920.1160@0.0.1920.1160" timestamp="1658424350938" />
+    <state x="740" y="321" key="FileChooserDialogImpl" timestamp="1658424460802">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="740" y="321" key="FileChooserDialogImpl/0.0.1920.1160@0.0.1920.1160" timestamp="1658424460802" />
     <state x="461" y="224" key="SettingsEditor" timestamp="1658424353428">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="461" y="224" key="SettingsEditor/0.0.1920.1160@0.0.1920.1160" timestamp="1658424353428" />
+    <state x="552" y="312" key="Vcs.Push.Dialog.v2" timestamp="1658424663000">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="552" y="312" key="Vcs.Push.Dialog.v2/0.0.1920.1160@0.0.1920.1160" timestamp="1658424663000" />
   </component>
 </project>
