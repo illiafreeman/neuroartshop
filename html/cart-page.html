@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/master.css">
+    <script src="./js/master.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="mobile-header">
+            <div class="header-mobile-top">
+                <a href="index.html"><img class="mobile-logo" src="./img/logo.png" alt=""></a>
+                <img onclick="mobile_menu_open()" src="./img/icons/menu-hamburger.png" alt="">
+            </div>
+            <div class="header-mobile-bottom">
+                <div class="mobile-soc-group-icons">
+                    <a href=""><img src="./img/icons/lk.png" alt=""></a>
+                    <a href=""><img src="./img/icons/favourite.png" alt=""></a>
+                    <a href=""><img src="./img/icons/cart.png" alt=""></a>
+                </div>
+                <div class="search-wrapper"><input placeholder="Поиск" type="text" class="search"></div>
+            </div>
+            <div class="mobile-menu">
+                <nav class="mobile-nav-menu">
+                    <a href="catalog.html">Каталог</a>
+                    <a href="discounts.html">Акции</a>
+                    <a href="">Новинки</a>
+                    <a href="">Распродажа</a>
+                    <a href="">Бренды</a>
+                </nav>
+            </div>
+        </div>
+        <div class="top-header">
+            <div class="container container-grid">
+                <div class="top-nav">
+                    <div class="top-nav-group">
+                        <a href="dostavka-i-oplata.html">Доставка и оплата</a>
+                        <a href="o-kompanii.html">О компании</a>
+                        <a href="kontakty.html">Контакты</a>
+                    </div>
+                    <a class="top-nav-phone" href="#">+7 (977) 411 41 51</a>
+                </div>
+            </div>
+        </div>
+        <div class="middle-header">
+            <div class="container container-grid">
+                <div class="middle-group">
+                    <div></div>
+                    <div class="logo-wrapper">
+                        <a href="index.html"><img src="./img/logo.png" alt=""></a>
+                    </div>
+                    <div class="middle-nav">
+                        <a href="#">Вход</a>
+                        <a href="izbrannoe.html">Избранное</a>
+                        <a href="cart-page.html">Корзина</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom-header">
+            <div class="container container-grid">
+                <div class="main-nav-group">
+                    <nav class="main-nav">
+                        <a href="catalog.html">Каталог</a>
+                        <a href="discounts.html">Акции</a>
+                        <a href="">Новинки</a>
+                        <a href="">Распродажа</a>
+                        <a href="" class="brands-hover">Бренды</a>
+                    </nav>
+                    <div class="search-wrapper"><input placeholder="Поиск" type="text" class="search"></div>
+                </div>
+            </div>
+        </div>
+        <div class="brands-wrapper">
+            <div class="container">
+                <div class="brands-list">
+                    <a href="">Ami</a>
+                    <a href="">Aravia</a>
+                    <a href="">Atis Professional</a>
+                    <a href="">Bagheera Nails</a>
+                    <a href="">Barbara</a>
+                    <a href="">Benovy</a>
+                    <a href="">Camillen</a>
+                    <a href="">Codyson</a>
+                    <a href="">Cosmos</a>
+                    <a href="">CosmoLac</a>
+                    <a href="">Cosmoprofi</a>
+                    <a href="">Depiflax</a>
+                    <a href="">Diva</a>
+                    <a href="">Domix</a>
+                    <a href="">EVI</a>
+                    <a href="">Gellaktik</a>
+                    <a href="">Grattol</a>
+                    <a href="">Go Stamp</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section>
+            <div class="container">
+                <h1 class="h1-center">Корзина</h1>
+                <div class="cart-group">
+                    <div class="cart-group-item">
+                        <img class="cart-group-img" src="./img/favourites.png" alt="">
+                        <a href="product-card.html" class="cart-item-title">
+                            Rock Nail, Гель-лак Sugar 
+                            Free 865 2Sweet4Me, 10 мл
+                        </a>
+                        <div class="cart-group-price">
+                            119 ₽
+                            <div class="count-group">
+                                <div class="plus">+</div>
+                                <input type="text" class="count" value="1">
+                                <div class="minus">-</div>
+                            </div>
+                            119 ₽
+                        </div>
+                        <img class="cart-group-close" src="./img/icons/close.png" alt="">
+                    </div>
+                    <div class="cart-group-item">
+                        <img class="cart-group-img" src="./img/favourites.png" alt="">
+                        <a href="product-card.html" class="cart-item-title">
+                            Rock Nail, Гель-лак Sugar 
+                            Free 865 2Sweet4Me, 10 мл
+                        </a>
+                        <div class="cart-group-price">
+                            119 ₽
+                            <div class="count-group">
+                                <div class="plus">+</div>
+                                <input type="text" class="count" value="1">
+                                <div class="minus">-</div>
+                            </div>
+                            119 ₽
+                        </div>
+                        <img class="cart-group-close" src="./img/icons/close.png" alt="">
+                    </div>
+                </div>
+                <div class="form-promo-group">
+                    <form action="" class="form-promo" method="post">
+                        <input type="text" placeholder="Промокод">
+                        <input class="btn" type="submit" value="Применить">
+                    </form>
+                    <div class="min-sum-info">
+                        Минимальная сумма<br> заказа 1000 ₽ 
+                    </div>
+                </div>
+                <ul class="calculation-group">
+                    <li>
+                        <span>Самовывоз из магазина:</span><div class="calc-sum">0р</div>
+                    </li>
+                    <li>
+                        <span>Итого:</span><div class="calc-sum">0р</div>
+                    </li>
+                </ul>
+                <form action="" class="order-form">
+                    <label for="" class="order-form-title">Контактные данные</label>
+                    <input type="text" placeholder="ФИО">
+                    <input type="text" placeholder="E-mail">
+                    <input type="text" placeholder="Телефон">
+                    <label for="" class="order-form-title">Доставка</label>
+                    <input type="text" placeholder="Адрес">
+                    <div class="radio-group">
+                        <div class="radio-item">
+                            <input type="radio" name="delivery" value="Самовывоз из магазина">
+                            <label for="">Самовывоз из магазина</label>
+                            <div class="radio-sum">0 ₽</div>
+                        </div>
+                        <div class="radio-item">
+                            <input type="radio" name="delivery" value="Курьерская доставка">
+                            <label for="">Курьерская доставка</label>
+                            <div class="radio-sum">300 ₽</div>
+                        </div>
+                        <div class="radio-item">
+                            <input type="radio" name="delivery" value="Самовывоз из пункта выдачи СДЭК">
+                            <label for="">Самовывоз из пункта выдачи СДЭК</label>
+                            <div class="radio-sum">300 ₽</div>
+                        </div>
+                    </div>
+                    <label for="" class="order-form-title">Оплата</label>
+                    <div class="radio-group">
+                        <div class="radio-item">
+                            <input type="radio" name="pay" value="Банковской картой на сайте">
+                            <label for="">Банковской картой на сайте</label>
+                        </div>
+                        <div class="radio-item">
+                            <input type="radio" name="pay" value="Выставить счет">
+                            <label for="">Выставить счет</label>
+                        </div>
+                        <div class="radio-item">
+                            <input type="radio" name="pay" value="При получении">
+                            <label for="">При получении</label>
+                        </div>
+                    </div>
+                    <label for="" class="order-form-title">Комментарий к заказу</label>
+                    <textarea name="" id="" placeholder="Комментарий к заказу"></textarea>
+                    <input class="btn" type="submit" value="Оформить заказ">
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="footer-group">
+                <img src="./img/footer-logo.png" alt="">
+                <nav>
+                    <a href="#">Доставка и оплата</a>
+                    <a href="#">О компании</a>
+                    <a href="#">Контакты</a>
+                    <a href="#">Акции</a>
+                    <a href="#">Распродажа</a>
+                    <a href="#">Возврат</a>
+                    <a href="#">Адрес</a>
+                    <a href="#">Каталог</a>
+                    <a href="#">Новинки</a>
+                    <a href="#">Бренды</a>
+                </nav>
+                <div class="footer-contact-group">
+                    <a href="#"> +7 (977) 411 41 51</a>
+                    <img src="./img/icons/footer-tg.png" alt="">
+                    <img src="./img/icons/footer-vk.png" alt="">
+                    <img src="./img/icons/footer-wh.png" alt="">
+                    <a class='footer-contact-group-mail' href="mailto:info@cultmanicura.ru">info@cultmanicura.ru</a>
+                </div>
+                <div class="footer-row">
+                    <p>© 2022 CultNailTeam</p>
+                    <a href="">Задизайнено web-off.ru</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="./js/drop-list.js" defer></script>
+</body>
+</html>
