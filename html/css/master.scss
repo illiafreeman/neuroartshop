@@ -659,7 +659,23 @@ h2.h2-w {
     line-height: 46px;
     margin-bottom: 80px;
 }
-
+.slider-item{
+    position: relative;
+    border-radius: 20px;
+    h2{
+        position: absolute;
+        bottom: 68px;
+        left: 68px;
+        margin: 0;
+        color: #fff;
+        b{
+            display: block;
+        }
+        span{
+            
+        }
+    }
+}
 
 .conditions-list {
     position: relative;

@@ -709,6 +709,20 @@ h2.h2-w {
   margin-bottom: 80px;
 }
 
+.slider-item {
+  position: relative;
+  border-radius: 20px;
+}
+.slider-item h2 {
+  position: absolute;
+  bottom: 68px;
+  left: 68px;
+  margin: 0;
+  color: #fff;
+}
+.slider-item h2 b {
+  display: block;
+}
 .conditions-list {
   position: relative;
   padding: 0;
