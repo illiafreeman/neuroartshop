@@ -338,7 +338,7 @@ main {
     position: relative;
     width: 100%;
     max-width: 1280px;
-    overflow: hidden;
+    //overflow: hidden;
 }
 .container-grid {
     display: grid;
@@ -446,8 +446,6 @@ main {
     display: grid;
     grid-auto-flow: column;
     justify-content: end;
-    gap: 53px;
-    margin: 0px 32px 0 0;
     align-items: center;
     
 }
@@ -462,12 +460,13 @@ main {
     display: flex;
     align-items: center;
     transition: $transition;
+    margin-left: 22px;
     svg{
         fill: #000;
         width: 22px;
         height: 22px;
         transition: $transition;
-        margin-left: 12px;
+        margin-left: 10px;
     }
     &:before {
         content: "";
