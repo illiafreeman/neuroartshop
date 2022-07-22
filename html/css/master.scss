@@ -661,7 +661,6 @@ h2.h2-w {
 }
 .slider-item{
     position: relative;
-    border-radius: 20px;
     h2{
         position: absolute;
         bottom: 68px;
@@ -685,6 +684,7 @@ h2.h2-w {
     margin-top: -23px;
     z-index: 1000;
     border-radius: 50%;
+    transition: $transition;
     &::before{
         display: none;
     }
@@ -695,7 +695,6 @@ h2.h2-w {
     background-position: center center;
     background-repeat: no-repeat;
     background-color: rgba(255, 255, 255, 0.4);
-    transition: $transition;
     &:hover{
         background-position: 40% center;
     }
@@ -706,6 +705,9 @@ h2.h2-w {
     background-position: center center;
     background-repeat: no-repeat;
     background-color: rgba(255, 255, 255, 0.4);
+    &:hover{
+        background-position: 60% center;
+    }
 }
 .slider.slick-initialized.slick-slider{
     border-radius: 20px;
