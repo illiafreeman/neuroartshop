@@ -672,11 +672,45 @@ h2.h2-w {
             display: block;
         }
         span{
-            
+            left: 32px;
         }
     }
 }
-
+.slick-arrow{
+    display: block;
+    width: 46px;
+    height: 46px;
+    position: absolute;
+    top: 50%;
+    margin-top: -23px;
+    z-index: 1000;
+    border-radius: 50%;
+    &::before{
+        display: none;
+    }
+}
+.slick-arrow.slick-prev{
+    left: 32px;
+    background-image: url(../img/icon-arrow-left.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: rgba(255, 255, 255, 0.4);
+    transition: $transition;
+    &:hover{
+        background-position: 40% center;
+    }
+}
+.slick-arrow.slick-next{
+    right: 32px;
+    background-image: url(../img/icon-arrow-right.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+.slider.slick-initialized.slick-slider{
+    border-radius: 20px;
+    overflow: hidden;
+}
 .conditions-list {
     position: relative;
     padding: 0;
