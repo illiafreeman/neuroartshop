@@ -622,6 +622,35 @@ label:focus{
     align-items: center;
     align-content: center;
     gap: 28px;
+    position: relative;
+    &:before{
+        content: '';
+        display: block;
+        position: absolute;
+        width: 1px;
+        top: 0;
+        bottom: 0;
+        left: 50%;
+        background: #FC8FB6;
+    }
+    &__inner{
+        display: flex;
+        flex-direction: column;
+        background: #fff;
+        position: relative;
+        padding: 40px 0;
+        a{
+            display: block;
+            margin-bottom: 28px;
+            transition: $transition;
+            &:last-child{
+                margin-bottom: 0;
+            }
+            &:hover{
+                transform: scale(1.3);
+            }
+        }
+    }
 }
 
 h1.h1-center {
@@ -681,7 +710,6 @@ h2.h2-w {
     height: 46px;
     position: absolute;
     top: 50%;
-    margin-top: -23px;
     z-index: 1000;
     border-radius: 50%;
     transition: $transition;
@@ -711,7 +739,31 @@ h2.h2-w {
 }
 .slider.slick-initialized.slick-slider{
     border-radius: 20px;
-    overflow: hidden;
+    //overflow: hidden;
+}
+.slick-dots li{
+    width: 16px;
+    height: 16px;
+    margin: 0 22px;
+}
+.slick-dots li button{
+    background: #E8DFDE;
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+}
+.slick-dots li.slick-active button{
+    background: #FC8FB6;
+}
+.slick-dots {
+    position: absolute;
+    bottom: -50px;
+}
+.slick-dotted.slick-slider {
+    margin-bottom: 0;
+  }
+.slick-dots li button::before {
+    display: none;
 }
 .conditions-list {
     position: relative;
