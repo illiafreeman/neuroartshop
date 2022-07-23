@@ -1101,7 +1101,7 @@ h2.h2-w {
   grid-column: 1/4;
   display: grid;
   grid-auto-flow: column;
-  font-family: Montserrat-Medium; }
+  font-family: Montserrat-Regular; }
 
 .footer-row > a {
   grid-column: 4;
@@ -1117,6 +1117,32 @@ h2.h2-w {
   font-size: 12px;
   grid-column: 1/4;
   font-family: Montserrat-Regular; }
+  .footer-contact-group-mail:hover {
+    text-decoration: none; }
+
+.stu {
+  text-align: right;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  font-family: Montserrat-Regular; }
+  .stu a {
+    position: relative;
+    display: inline-block;
+    color: #000;
+    text-decoration: none; }
+    .stu a:before {
+      content: "";
+      width: 0;
+      height: 1px;
+      position: absolute;
+      bottom: -3px;
+      right: 0;
+      background: #000;
+      transition: all 0.2s ease-in-out; }
+    .stu a:hover:before {
+      width: 100%;
+      left: 0; }
 
 .footer-contact-group a:nth-child(1) {
   font-family: Montserrat-Medium;
@@ -1125,13 +1151,41 @@ h2.h2-w {
   line-height: 20px;
   color: #000;
   grid-column: 1/4;
-  text-decoration: none; }
+  text-decoration: none;
+  position: relative; }
+  .footer-contact-group a:nth-child(1):before {
+    content: "";
+    width: 0;
+    height: 1px;
+    position: absolute;
+    bottom: -3px;
+    right: 0;
+    background: #000;
+    transition: all 0.2s ease-in-out; }
+  .footer-contact-group a:nth-child(1):hover:before {
+    width: 100%;
+    left: 0; }
+
+.footer-soc {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+  margin: 21px 0 15px; }
+  .footer-soc a {
+    display: block;
+    margin-left: 20px;
+    transition: all 0.2s ease-in-out; }
+    .footer-soc a:hover {
+      transform: scale(1.3); }
+    .footer-soc a:before {
+      display: none; }
+    .footer-soc a:first-child {
+      margin: 0; }
 
 .footer-contact-group {
-  display: grid;
-  justify-items: center;
-  justify-content: center;
-  gap: 22px; }
+  display: flex;
+  flex-direction: column; }
 
 .footer-group {
   display: grid;
@@ -1155,6 +1209,8 @@ h2.h2-w {
   font-size: 14px;
   line-height: 17px;
   font-family: Montserrat-Medium; }
+  .footer-group nav a:hover {
+    text-decoration: underline; }
 
 .content-wrapper {
   display: grid;
