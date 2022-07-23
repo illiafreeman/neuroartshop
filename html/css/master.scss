@@ -570,6 +570,10 @@ main {
                 font-size: 14px;
                 line-height: 22px;
                 font-weight: 400;
+                margin-bottom: 5px;
+                &:before {
+                    bottom: 0px !important;
+                }
             }
         }
 

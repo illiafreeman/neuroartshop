@@ -525,7 +525,10 @@ main {
         display: inline-block;
         font-size: 14px;
         line-height: 22px;
-        font-weight: 400; }
+        font-weight: 400;
+        margin-bottom: 5px; }
+        .main-nav span .submenu li a:before {
+          bottom: 0px !important; }
   .main-nav span:hover:before {
     width: calc(100% - 22px);
     left: 0; }
