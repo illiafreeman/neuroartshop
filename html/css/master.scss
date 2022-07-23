@@ -524,7 +524,7 @@ main {
         width: 0;
         height: 1px;
         position: absolute;
-        bottom: -3px;
+        bottom: 7px;
         right: 0;
         background: #000;
         transition: all 0.2s ease-in-out;
@@ -576,7 +576,6 @@ main {
                 }
             }
         }
-
     }
     &:hover{
         &:before {
@@ -591,14 +590,71 @@ main {
             visibility: visible;
         }
     }
-    
     svg{
         width: 22px;
         height: 22px;
         transition: $transition;
     }
-    
 }
+
+.catalog{
+    svg{
+        width: 22px;
+        height: 22px;
+        transition: $transition;
+    }
+    &__submenu{
+        position: absolute;
+        background: #fff;
+        padding: 0;
+        margin: 0;
+        list-style-type: none;
+        top: 100%;
+        left: 0;
+        right: 0;
+        column-count: 2;
+        display: block;
+        z-index: 1000;
+        padding: 40px;
+        opacity: 0;
+        visibility: hidden;
+        li{
+            display: block;
+            a{
+                display: inline-block;
+                font-size: 16px;
+                line-height: 32px;
+                font-weight: 400;
+                margin-bottom: 1px;
+                &:before {
+                    bottom: 3px !important;
+                }
+            }
+        }
+    }
+    &:hover{
+        &:before {
+            width: calc(100% - 22px);
+            left: 0;
+        }
+        svg{
+            transform: rotate(180deg);
+        }
+        .catalog__submenu{
+            opacity: 1;
+            visibility: visible;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
 
 a:active,
 a:focus,
