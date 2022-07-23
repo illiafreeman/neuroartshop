@@ -828,7 +828,9 @@ h2.h2-w {
   display: grid;
   grid-auto-flow: row;
   align-items: start;
-  position: relative; }
+  position: relative;
+  color: #000;
+  text-decoration: none; }
   .stocks-item-label {
     display: flex;
     width: 91px;
@@ -868,7 +870,9 @@ h2.h2-w {
   text-align: left;
   font-weight: 700;
   font-size: 36px;
-  line-height: 40px; }
+  line-height: 40px;
+  color: #000;
+  text-decoration: none; }
 
 .whom-group {
   display: grid;

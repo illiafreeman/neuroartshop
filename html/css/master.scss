@@ -923,6 +923,8 @@ h2.h2-w {
     grid-auto-flow: row;
     align-items: start;
     position: relative;
+    color: #000;
+    text-decoration: none;
     &-label{
         display: flex;
         width: 91px;
@@ -969,6 +971,8 @@ h2.h2-w {
     font-weight: 700;
     font-size: 36px;
     line-height: 40px;
+    color: #000;
+    text-decoration: none;
 }
 
 .whom-group {
