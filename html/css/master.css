@@ -827,8 +827,34 @@ h2.h2-w {
   width: 100%;
   display: grid;
   grid-auto-flow: row;
-  gap: 18px;
-  align-items: start; }
+  align-items: start;
+  position: relative; }
+  .stocks-item-label {
+    display: flex;
+    width: 91px;
+    height: 91px;
+    position: absolute;
+    top: -38px;
+    right: -29px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'FactorAMedium-Regular';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 26px;
+    color: #FFFFFF; }
+    .stocks-item-label_pink {
+      background: url(../img/icon-splash.svg) center center no-repeat; }
+    .stocks-item-label_violet {
+      background: url(../img/icon-splash-violet.svg) center center no-repeat; }
+    .stocks-item-label_green {
+      background: url(../img/icon-splash-green.svg) center center no-repeat; }
+  .stocks-item-sub {
+    font-size: 18px;
+    line-height: 22px;
+    font-family: Montserrat-Regular; }
+  .stocks-item img {
+    margin-bottom: 18px; }
 
 .stocks-item:nth-child(1) {
   grid-row: 1/3; }
@@ -883,18 +909,18 @@ h2.h2-w {
   font-size: 28px;
   line-height: 34px;
   text-transform: uppercase;
-  font-family: FactorAMedium-Regular; }
+  font-family: Montserrat-Regular; }
 
 .why-choose-item p {
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
-  font-family: FactorAMedium-Regular; }
+  font-family: Montserrat-Regular; }
 
 .popular-products-wrapper {
   position: relative;
   width: 100%;
-  padding: 0 0 80px 0;
+  padding: 0 80px 80px;
   overflow: hidden; }
 
 .popular-products-group {
@@ -904,24 +930,29 @@ h2.h2-w {
   justify-content: start; }
 
 .popular-products-item {
-  display: grid;
-  justify-items: start;
-  grid-auto-flow: row;
-  grid-template-rows: 300px;
-  padding: 0 20px;
-  min-width: calc(100%/4); }
+  padding: 0 10px; }
+  .popular-products-item a {
+    display: block;
+    text-decoration: none !important; }
 
-.popular-products-item > img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover; }
+.popular-products-item img {
+  max-width: 260px;
+  display: block;
+  margin: 0 auto; }
 
 .popular-products-title {
   margin: 18px 0 26px 0;
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
-  font-family: Montserrat-Regular; }
+  font-family: Montserrat-Regular;
+  height: 66px;
+  overflow: hidden;
+  display: block;
+  color: #000;
+  text-decoration: none !important; }
+  .popular-products-title span {
+    text-decoration: none !important; }
 
 .popular-products-price-group {
   display: grid;
@@ -932,11 +963,10 @@ h2.h2-w {
   justify-content: start; }
 
 .popular-products-price {
-  font-weight: 400;
   font-size: 22px;
   line-height: 34px;
   color: #000;
-  font-family: Montserrat-Medium; }
+  font-family: Montserrat-Bold; }
 
 .past-price {
   font-weight: 400;
@@ -945,6 +975,26 @@ h2.h2-w {
   color: #8F8F8F;
   text-decoration: line-through;
   font-family: Montserrat-Medium; }
+
+.popular-products-group .slick-arrow {
+  border: 1px solid #000;
+  background-color: transparent; }
+.popular-products-group .slick-arrow.slick-prev {
+  left: -78px;
+  background-image: url(../img/icon-arrow-left-black.svg); }
+.popular-products-group .slick-arrow.slick-next {
+  right: -78px;
+  background-image: url(../img/icon-arrow-right-black.svg); }
+
+.team-slider .slick-arrow {
+  border: 1px solid #000;
+  background-color: transparent; }
+.team-slider .slick-arrow.slick-prev {
+  left: -78px;
+  background-image: url(../img/icon-arrow-left-black.svg); }
+.team-slider .slick-arrow.slick-next {
+  right: -78px;
+  background-image: url(../img/icon-arrow-right-black.svg); }
 
 .add-card-btn {
   border: 1px solid #000000;
@@ -955,7 +1005,9 @@ h2.h2-w {
   line-height: 22px;
   cursor: pointer;
   text-align: center;
-  font-family: Montserrat-Regular; }
+  font-family: Montserrat-Regular;
+  display: inline-block;
+  transition: all 0.2s ease-in-out; }
 
 .add-card-btn:hover {
   background-color: #000;
@@ -985,7 +1037,12 @@ h2.h2-w {
   display: grid;
   grid-auto-flow: row;
   justify-items: center;
-  align-items: start; }
+  align-items: start;
+  text-decoration: none; }
+  .most-popular-item img {
+    transition: all 0.2s ease-in-out; }
+  .most-popular-item:hover img {
+    transform: scale(1.2); }
 
 .most-popular-item > span {
   font-family: Montserrat-Regular;
@@ -999,7 +1056,7 @@ h2.h2-w {
   position: relative;
   width: 100%;
   overflow: hidden;
-  margin: 0 0 80px 0; }
+  padding: 0 80px 80px; }
 
 .team-slider {
   position: relative;
@@ -1013,6 +1070,9 @@ h2.h2-w {
   display: grid;
   grid-auto-flow: row;
   justify-items: center; }
+  .team-slider-item img {
+    display: block;
+    margin: 0 auto; }
 
 .name {
   margin: 37px 0 16px 0;
@@ -1080,7 +1140,7 @@ h2.h2-w {
   align-items: start;
   border-top: 1px solid #000;
   /*border-bottom: 1px solid #000;*/
-  padding: 80px 0; }
+  padding: 80px 0 20px; }
 
 .footer-group nav {
   display: grid;
