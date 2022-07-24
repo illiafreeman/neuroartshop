@@ -2019,6 +2019,10 @@ textarea {
     .stocks-item{
         width: calc(100% - 30px);
     }
+    .header-mobile-top{
+
+    }
+
 } 
 @media(max-width: 764px) {
     .about-company-content ul {
@@ -2180,7 +2184,7 @@ textarea {
     .popular-products-title {
         font-size: 12px;
         line-height: 16px;
-        height: 51px;
+        height: 48px;
         margin-bottom: 10px;;
     }
     .popular-products-price {

@@ -13,7 +13,7 @@ $(document).ready(function(){
 	$('.popular-products-group').slick({
 		infinite: true,
   		slidesToShow: 4,
-		slidesToScroll: 1,
+		slidesToScroll: 4,
 		responsive: [
 			{
 			  breakpoint: 960,
