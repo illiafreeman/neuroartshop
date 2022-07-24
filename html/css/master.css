@@ -1721,10 +1721,6 @@ textarea {
   .most-popular-group {
     grid-template-columns: 1fr 1fr 1fr !important; }
 
-  .team-slider-item {
-    min-width: 100% !important;
-    width: auto !important; }
-
   .footer-group {
     grid-template-columns: 1fr auto !important; }
 
@@ -1840,7 +1836,12 @@ textarea {
     padding: 0 0 80px; }
 
   .container_popular {
-    padding: 0 !important; } }
+    padding: 0 !important; }
+    .container_popular h2 {
+      padding: 0 20px; }
+
+  .stocks-item {
+    width: calc(100% - 30px); } }
 @media (max-width: 764px) {
   .about-company-content ul {
     font-size: 14px !important; }
@@ -1860,14 +1861,19 @@ textarea {
   .add-card-btn {
     font-size: 12px !important; }
 
-  .popular-products-item {
-    min-width: calc(100%/2) !important; }
+  .stocks-item-label {
+    font-size: 17px;
+    line-height: 19px;
+    width: 66px;
+    height: 66px;
+    background-size: 66px 66px; }
 
   .search {
     width: 100% !important; }
 
   .stocks-item-title {
-    font-size: 22px !important; }
+    font-size: 18px;
+    line-height: 20px; }
 
   h2 {
     font-size: 24px !important;
@@ -1883,9 +1889,6 @@ textarea {
   h1.h1-center {
     font-size: 24px !important; }
 
-  .popular-products-item {
-    min-width: 78% !important; }
-
   .product-content-item {
     font-size: 14px !important; }
 
@@ -1894,8 +1897,59 @@ textarea {
 
   .drop-list-content {
     font-size: 14px !important;
-    line-height: 20px !important; } }
-@media (max-width: 540px) {
+    line-height: 20px !important; }
+
+  .conditions-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0 !important; }
+    .conditions-list li {
+      width: 50%;
+      margin-bottom: 60px; }
+
+  .conditions-list > li img {
+    margin-bottom: 20px; }
+
+  h2 {
+    margin-bottom: 46px; }
+
+  .conditions-list p {
+    font-size: 16px;
+    line-height: 20px; }
+
+  h2.h2-w {
+    margin: 54px 0 46px;
+    font-weight: 500; }
+
+  .gradient-section {
+    padding: 0 0 54px; }
+
+  .why-choose-item > span {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 15px; }
+
+  .why-choose-item p {
+    font-size: 14px;
+    line-height: 17px; }
+
+  .why-choose-group {
+    row-gap: 20px; }
+
+  .description {
+    font-size: 14px;
+    margin-top: 20px; }
+
+  .position {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px; }
+
+  .name {
+    margin: 37px 0 16px 0;
+    font-weight: 700;
+    font-size: 22px; } }
+@media (max-width: 600px) {
   .header-mobile-bottom {
     grid-template-columns: 1fr 1fr !important; }
 
@@ -1912,6 +1966,79 @@ textarea {
     grid-row: unset !important; }
 
   .cart-group-item {
-    grid-template-columns: 1fr !important; } }
+    grid-template-columns: 1fr !important; }
+
+  .slider-item h2 {
+    font-size: 20px;
+    line-height: 28px;
+    left: 23px; }
+
+  .slick-dots li button {
+    width: 10px;
+    height: 10px; }
+
+  .slick-dots li {
+    width: 10px;
+    height: 10px;
+    margin: 0 7px; }
+
+  .slick-dots {
+    position: absolute;
+    bottom: -29px; }
+
+  .conditions-list li:nth-child(3), .conditions-list li:nth-child(4) {
+    margin-bottom: 0; }
+
+  .container_popular {
+    padding-top: 30px !important; }
+
+  .popular-products-title {
+    font-size: 12px;
+    line-height: 16px;
+    height: 51px;
+    margin-bottom: 10px; }
+
+  .popular-products-price {
+    font-size: 16px;
+    line-height: 34px; }
+
+  .past-price {
+    font-size: 16px;
+    line-height: 34px; }
+
+  .add-card-btn {
+    font-size: 14px !important; }
+
+  .container_popular {
+    border-bottom: 1px solid #000; }
+
+  .pop {
+    padding-bottom: 20px; }
+
+  .most-popular-item > span {
+    font-size: 12px;
+    line-height: 15px; }
+
+  .footer-group nav {
+    row-gap: 12px;
+    margin: 50px 0; }
+
+  .footer-group nav a {
+    font-size: 12px;
+    line-height: 15px;
+    font-family: Montserrat-Regular; }
+
+  .footer-row > p {
+    font-size: 12px;
+    line-height: 22px; }
+
+  .footer-group {
+    padding: 80px 0 10px; }
+
+  .footer-row {
+    padding: 20px 0 0 0; }
+
+  .footer-group {
+    gap: 0px !important; } }
 
 /*# sourceMappingURL=master.css.map */

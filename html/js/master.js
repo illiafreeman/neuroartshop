@@ -1,6 +1,14 @@
 $(document).ready(function(){
 	$('.slider').slick({
-		dots: true
+		dots: true,
+		responsive: [
+			{
+				breakpoint: 600,
+				settings: {
+				  arrows: false
+				}
+			  }
+		]
 	});
 	$('.popular-products-group').slick({
 		infinite: true,
@@ -16,19 +24,33 @@ $(document).ready(function(){
 			  }
 			},
 			{
-			  breakpoint: 480,
+			  breakpoint: 600,
 			  settings: {
 				arrows: false,
 				centerMode: true,
-				centerPadding: '40px',
-				slidesToShow: 1
+				slidesToShow: 2
 			  }
 			}
-		  ]
+		]
 	});
 	$('.team-slider').slick({
 		infinite: true,
   		slidesToShow: 3,
-		slidesToScroll: 1
+		slidesToScroll: 1,
+		responsive: [
+			{
+			  breakpoint: 960,
+			  settings: {
+				//centerMode: true,
+				slidesToShow: 2
+			  }
+			},
+			{
+			  breakpoint: 600,
+			  settings: {
+				slidesToShow: 1
+			  }
+			}
+		]
 	});
 });
