@@ -2282,9 +2282,16 @@ textarea {
     .slick-arrow {
         top: 65px;
     }
-
-
-
+    .whom-group{
+        padding-top: 60px;
+    }
+    .slider .slick-slide img {
+        height: 250px;
+        object-fit: cover;
+    }
+    .slider .slick-list{
+        border-radius: 20px;
+    }
 
 
 

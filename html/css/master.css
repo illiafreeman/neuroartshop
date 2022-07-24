@@ -2097,6 +2097,16 @@ textarea {
     right: -19px; }
 
   .slick-arrow {
-    top: 65px; } }
+    top: 65px; }
+
+  .whom-group {
+    padding-top: 60px; }
+
+  .slider .slick-slide img {
+    height: 250px;
+    object-fit: cover; }
+
+  .slider .slick-list {
+    border-radius: 20px; } }
 
 /*# sourceMappingURL=master.css.map */
