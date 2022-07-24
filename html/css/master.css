@@ -1948,7 +1948,11 @@ textarea {
   .name {
     margin: 37px 0 16px 0;
     font-weight: 700;
-    font-size: 22px; } }
+    font-size: 22px; }
+
+  .stocks-item-sub {
+    font-size: 14px;
+    line-height: 18px; } }
 @media (max-width: 600px) {
   .header-mobile-bottom {
     grid-template-columns: 1fr 1fr !important; }
@@ -2039,6 +2043,60 @@ textarea {
     padding: 20px 0 0 0; }
 
   .footer-group {
-    gap: 0px !important; } }
+    gap: 0px !important; }
+
+  .whom-img-group > img {
+    width: 40% !important; } }
+@media (max-width: 480px) {
+  .mobile-soc-group-icons {
+    gap: 0px; }
+
+  .conditions-list li {
+    width: 100%; }
+
+  .stocks-item > img {
+    height: 180px !important; }
+
+  .stocks-item-title {
+    font-weight: 500; }
+
+  .whom-img-group > img {
+    width: 50% !important; }
+
+  .team-slider-wrapper {
+    padding: 0 20px 20px; }
+
+  .conditions-list li:nth-child(3) {
+    margin-bottom: 60px; }
+
+  .team-slider-item {
+    padding: 0; }
+
+  .team-slider-item img {
+    width: 120px; }
+
+  .name {
+    margin: 20px 0 10px;
+    font-size: 14px;
+    font-family: Montserrat-Medium;
+    font-weight: 600; }
+
+  .position {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px; }
+
+  .description {
+    font-size: 12px;
+    line-height: 16px; }
+
+  .team-slider .slick-arrow.slick-prev {
+    left: -19px; }
+
+  .team-slider .slick-arrow.slick-next {
+    right: -19px; }
+
+  .slick-arrow {
+    top: 65px; } }
 
 /*# sourceMappingURL=master.css.map */

@@ -30,7 +30,15 @@ $(document).ready(function(){
 				centerMode: true,
 				slidesToShow: 2
 			  }
-			}
+			},
+			{
+				breakpoint: 480,
+				settings: {
+				  arrows: false,
+				  centerMode: true,
+				  slidesToShow: 1
+				}
+			  }
 		]
 	});
 	$('.team-slider').slick({
