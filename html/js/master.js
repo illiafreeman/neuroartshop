@@ -1,8 +1,12 @@
 $(document).ready(function(){
 	$('.hambu').click(function(){
-        $('.menu-min').toggleClass('vis');
+        $('#menu-min').toggleClass('vis');
         $('body').toggleClass('oh');
         $('#nav-icon4').toggleClass('open');
+    });
+	$('#catalog-sub').click(function(){
+        $('#catalog-submenu').toggleClass('vis');
+        $('body').addClass('oh');
     });
 	$('.slider').slick({
 		dots: true,

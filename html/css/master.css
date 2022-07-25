@@ -1577,7 +1577,7 @@ textarea {
   position: relative;
   grid-template-columns: auto auto;
   justify-content: space-between;
-  padding: 20px 20px 0 20px; }
+  padding: 13px 20px 0 20px; }
 
 .mobile-menu {
   display: none;
@@ -1631,16 +1631,38 @@ textarea {
 .oh {
   overflow: hidden; }
 
+.sub {
+  padding: 0;
+  margin: 0 0 20px;
+  list-style-type: none; }
+  .sub li {
+    display: flex;
+    align-items: center; }
+    .sub li a {
+      height: 42px;
+      padding: 0 20px;
+      font-size: 14px;
+      line-height: 17px;
+      font-family: Montserrat-Regular;
+      color: #000;
+      text-decoration: none;
+      font-weight: 600;
+      display: flex;
+      align-items: center; }
+
+.menu-min_sub.vis {
+  display: block; }
+
 .menu-min {
   display: none;
   position: fixed;
-  top: 140px;
+  top: 62px;
   bottom: 0;
   left: 0;
   right: 0;
   overflow-y: auto;
   background: #fff;
-  z-index: 1000;
+  z-index: 10000;
   height: auto; }
   .menu-min .main-nav {
     display: flex;
