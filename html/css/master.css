@@ -1628,6 +1628,81 @@ textarea {
 .header-mobile-bottom {
   display: none; }
 
+.menu-min {
+  position: fixed;
+  top: 62px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow-y: auto;
+  background: #fff;
+  z-index: 1000;
+  height: auto; }
+  .menu-min .main-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    margin-bottom: 40px; }
+    .menu-min .main-nav a {
+      height: 42px;
+      padding: 0 20px;
+      font-size: 14px;
+      line-height: 17px;
+      font-family: Montserrat-Regular; }
+      .menu-min .main-nav a::before {
+        display: none; }
+    .menu-min .main-nav span {
+      height: 42px;
+      padding: 0 20px;
+      position: relative;
+      font-size: 14px;
+      line-height: 17px;
+      font-family: Montserrat-Regular;
+      cursor: pointer; }
+      .menu-min .main-nav span::before {
+        display: none; }
+      .menu-min .main-nav span svg {
+        position: absolute;
+        right: 20px;
+        top: 11px;
+        transform: rotate(-90deg); }
+      .menu-min .main-nav span:hover {
+        background: rgba(0, 0, 0, 0.04); }
+    .menu-min .main-nav .catalog:hover .catalog__submenu {
+      display: none; }
+    .menu-min .main-nav span:hover .submenu {
+      display: none; }
+  .menu-min .contact-group {
+    padding: 0 20px 20px; }
+    .menu-min .contact-group > a {
+      font-family: Montserrat-Regular;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 20px;
+      color: #000;
+      grid-column: 1/4;
+      text-decoration: none;
+      position: relative; }
+    .menu-min .contact-group .contact-group-soc {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      width: 100%;
+      margin: 21px 0 15px; }
+      .menu-min .contact-group .contact-group-soc a {
+        display: block;
+        margin-left: 20px;
+        transition: all 0.2s ease-in-out; }
+      .menu-min .contact-group .contact-group-soc a:first-child {
+        margin: 0; }
+    .menu-min .contact-group .contact-group-mail {
+      color: #0000FF;
+      font-size: 12px;
+      grid-column: 1/4;
+      font-family: Montserrat-Regular;
+      font-weight: 400;
+      text-decoration: underline; }
+
 @media (max-width: 1280px) {
   .container {
     padding: 0 20px !important; }
@@ -1852,14 +1927,15 @@ textarea {
     left: 0;
     right: 0;
     background: #fff;
-    z-index: 1000; }
+    z-index: 1000;
+    height: 62px; }
 
   main {
     padding: 0; }
 
   .header-mobile-bottom {
     display: flex;
-    margin-top: 66px;
+    margin: 0 0 25px;
     justify-content: space-between;
     width: 100%; } }
 @media (max-width: 764px) {
@@ -2127,6 +2203,10 @@ textarea {
     object-fit: cover; }
 
   .slider .slick-list {
-    border-radius: 20px; } }
+    border-radius: 20px; }
+
+  .menu-min .mobile-soc-group-icons {
+    gap: 20px;
+    margin-right: 20px; } }
 
 /*# sourceMappingURL=master.css.map */

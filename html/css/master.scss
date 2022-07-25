@@ -1781,7 +1781,100 @@ textarea {
 .header-mobile-bottom{
     display: none  ;
 }
-
+.menu-min{
+    position: fixed;
+    top: 62px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow-y: auto;
+    background: #fff;
+    z-index: 1000;
+    height: auto;
+    .main-nav{
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+        margin-bottom: 40px;
+        a{
+            height: 42px;
+            padding: 0 20px;
+            font-size: 14px;
+            line-height: 17px;
+            font-family: Montserrat-Regular;
+            &::before{
+                display: none;
+            }
+        }
+        span{
+            height: 42px;
+            padding: 0 20px;
+            position: relative;
+            font-size: 14px;
+            line-height: 17px;
+            font-family: Montserrat-Regular;
+            cursor: pointer;
+            &::before{
+                display: none;
+            }
+            svg{
+                position: absolute;
+                right: 20px;
+                top: 11px;
+                transform: rotate(-90deg);
+            }
+            &:hover{
+                background: rgba(0, 0, 0, 0.04);
+            }
+        }
+        .catalog:hover{
+            .catalog__submenu{
+                display: none;
+            }
+        }
+        span:hover{
+            .submenu{
+                display: none;
+            }
+        }
+    }
+    .contact-group{
+        padding: 0 20px 20px;
+        & > a{
+            font-family: Montserrat-Regular;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 20px;
+            color: #000;
+            grid-column: 1/4;
+            text-decoration: none;
+            position: relative;
+        }
+        .contact-group-soc{
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            width: 100%;
+            margin: 21px 0 15px;
+            a{
+                display: block;
+                margin-left: 20px;
+                transition: all 0.2s ease-in-out;
+            }
+            a:first-child {
+                margin: 0;
+            }
+        }
+        .contact-group-mail{
+            color: #0000FF;
+            font-size: 12px;
+            grid-column: 1/4;
+            font-family: Montserrat-Regular;
+            font-weight: 400;
+            text-decoration: underline;
+        }
+    }
+}
 
 
 
@@ -2031,13 +2124,14 @@ textarea {
         right: 0;
         background: #fff;
         z-index: 1000;
+        height: 62px;
     }
     main {
         padding: 0;
     }
     .header-mobile-bottom {
         display: flex;
-        margin-top: 66px;
+        margin: 0 0 25px;
         justify-content: space-between;
         width: 100%;
     }
@@ -2314,7 +2408,12 @@ textarea {
     .slider .slick-list{
         border-radius: 20px;
     }
-
+    .menu-min{
+        .mobile-soc-group-icons {
+            gap: 20px;
+            margin-right: 20px;
+        }
+    }
 
 
 
