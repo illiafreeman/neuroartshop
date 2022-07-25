@@ -7,7 +7,19 @@ $(document).ready(function(){
 	$('#catalog-sub').click(function(){
         $('#catalog-submenu').toggleClass('vis');
         $('body').addClass('oh');
+        $('.back').addClass('vis');
+		$('.hambu').removeClass('vis');
     });
+	$('.back').click(function(){
+        $('#catalog-submenu').removeClass('vis');
+        $(this).removeClass('vis');
+		$('.hambu').addClass('vis');
+    });
+
+
+
+
+
 	$('.slider').slick({
 		dots: true,
 		responsive: [

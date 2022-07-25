@@ -1784,9 +1784,24 @@ textarea {
 .oh{
     overflow: hidden;
 }
+.hambu{
+    opacity: 0;
+    visibility: hidden;
+    display: none;
+    &.vis{
+        opacity: 1;
+        visibility: visible;
+        display: block;
+    }
+}
+.df{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .sub{
     padding: 0;
-    margin: 0 0 20px;
+    margin: 0 0 40px;
     list-style-type: none;
     li{
         display: flex;
@@ -1804,6 +1819,17 @@ textarea {
             align-items: center;
         }
     }
+}
+.back{
+    //margin-right: 30px;
+    opacity: 0;
+    visibility: hidden;
+    cursor: pointer;
+    &.vis{
+        opacity: 1;
+        visibility: visible;
+    }
+
 }
 .menu-min_sub.vis{
     display: block;

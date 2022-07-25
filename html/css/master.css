@@ -1631,9 +1631,23 @@ textarea {
 .oh {
   overflow: hidden; }
 
+.hambu {
+  opacity: 0;
+  visibility: hidden;
+  display: none; }
+  .hambu.vis {
+    opacity: 1;
+    visibility: visible;
+    display: block; }
+
+.df {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
 .sub {
   padding: 0;
-  margin: 0 0 20px;
+  margin: 0 0 40px;
   list-style-type: none; }
   .sub li {
     display: flex;
@@ -1649,6 +1663,14 @@ textarea {
       font-weight: 600;
       display: flex;
       align-items: center; }
+
+.back {
+  opacity: 0;
+  visibility: hidden;
+  cursor: pointer; }
+  .back.vis {
+    opacity: 1;
+    visibility: visible; }
 
 .menu-min_sub.vis {
   display: block; }
