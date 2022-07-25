@@ -822,7 +822,9 @@ h2.h2-w {
   justify-items: center; }
   .team-slider-item img {
     display: block;
-    margin: 0 auto; }
+    margin: 0 auto;
+    width: 220px !important;
+    height: 220px !important; }
 
 .name {
   margin: 37px 0 16px 0;
@@ -2317,6 +2319,12 @@ textarea {
 
   .mobile-soc-group-icons {
     gap: 20px;
-    margin-right: 20px; } }
+    margin-right: 20px; }
+
+  .team-slider-item img {
+    display: block;
+    margin: 0 auto;
+    width: 160px !important;
+    height: 160px !important; } }
 
 /*# sourceMappingURL=master.css.map */

@@ -83,10 +83,10 @@ $(document).ready(function(){
 			  }
 			},
 			{
-			  breakpoint: 600,
-			  settings: {
-				slidesToShow: 1
-			  }
+				breakpoint: 768,
+				settings: {
+				  slidesToShow: 1
+				}
 			}
 		]
 	});

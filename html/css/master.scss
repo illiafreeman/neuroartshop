@@ -935,6 +935,8 @@ h2.h2-w {
     img{
         display: block;
         margin: 0 auto;
+        width: 220px !important;
+        height: 220px !important;
     }
 }
 .name {
@@ -2540,7 +2542,14 @@ textarea {
         margin-right: 20px;
     }
 
-
+    .team-slider-item {
+        img{
+            display: block;
+            margin: 0 auto;
+            width: 160px !important;
+            height: 160px !important;
+        }
+    }
 
 
 
