@@ -10,8 +10,14 @@ $(document).ready(function(){
         $('.back').addClass('vis');
 		$('.hambu').removeClass('vis');
     });
+	$('#brand-sub').click(function(){
+        $('#brand-submenu').toggleClass('vis');
+        $('body').addClass('oh');
+        $('.back').addClass('vis');
+		$('.hambu').removeClass('vis');
+    });
 	$('.back').click(function(){
-        $('#catalog-submenu').removeClass('vis');
+        $('#catalog-submenu, #brand-submenu').removeClass('vis');
         $(this).removeClass('vis');
 		$('.hambu').addClass('vis');
     });

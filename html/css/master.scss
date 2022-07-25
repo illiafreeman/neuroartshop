@@ -1817,6 +1817,10 @@ textarea {
             font-weight: 600;
             display: flex;
             align-items: center;
+            width: 100%;
+            &:hover{
+                background: rgba(0, 0, 0, 0.04);
+            }
         }
     }
 }
@@ -1858,6 +1862,9 @@ textarea {
             font-family: Montserrat-Regular;
             &::before{
                 display: none;
+            }
+            &:hover{
+                background: rgba(0, 0, 0, 0.04);
             }
         }
         span{
@@ -2476,7 +2483,10 @@ textarea {
         }
     }
 
-
+    .mobile-soc-group-icons {
+        gap: 20px;
+        margin-right: 20px;
+    }
 
 
 
