@@ -1628,9 +1628,13 @@ textarea {
 .header-mobile-bottom {
   display: none; }
 
+.oh {
+  overflow: hidden; }
+
 .menu-min {
+  display: none;
   position: fixed;
-  top: 62px;
+  top: 140px;
   bottom: 0;
   left: 0;
   right: 0;
@@ -1702,6 +1706,8 @@ textarea {
       font-family: Montserrat-Regular;
       font-weight: 400;
       text-decoration: underline; }
+  .menu-min.vis {
+    display: block; }
 
 @media (max-width: 1280px) {
   .container {
@@ -1927,7 +1933,7 @@ textarea {
     left: 0;
     right: 0;
     background: #fff;
-    z-index: 1000;
+    z-index: 10000;
     height: 62px; }
 
   main {
@@ -1937,7 +1943,11 @@ textarea {
     display: flex;
     margin: 0 0 25px;
     justify-content: space-between;
-    width: 100%; } }
+    width: 100%; }
+
+  .header-mobile-bottom_main {
+    padding-top: 75px;
+    margin-bottom: 15px; } }
 @media (max-width: 764px) {
   .about-company-content ul {
     font-size: 14px !important; }

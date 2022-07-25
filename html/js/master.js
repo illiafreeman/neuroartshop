@@ -1,4 +1,9 @@
 $(document).ready(function(){
+	$('.hambu').click(function(){
+        $('.menu-min').toggleClass('vis');
+        $('body').toggleClass('oh');
+        $('#nav-icon4').toggleClass('open');
+    });
 	$('.slider').slick({
 		dots: true,
 		responsive: [
