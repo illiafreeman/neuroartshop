@@ -467,14 +467,19 @@ h2.h2-w {
   position: relative; }
   .slider-item h2 {
     position: absolute;
-    bottom: 68px;
-    left: 68px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
     margin: 0;
-    color: #fff; }
+    padding: 44px 70px;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.3); }
     .slider-item h2 b {
-      display: block; }
+      display: block;
+      font-size: 48px; }
     .slider-item h2 span {
-      left: 32px; }
+      left: 32px;
+      font-size: 36px; }
 
 .slick-arrow {
   display: block;
@@ -490,19 +495,19 @@ h2.h2-w {
 
 .slick-arrow.slick-prev {
   left: 32px;
-  background-image: url(../img/icon-arrow-left.svg);
+  background-image: url(../img/icon-arrow-left-gradient.svg);
   background-position: center center;
   background-repeat: no-repeat;
-  background-color: rgba(255, 255, 255, 0.4); }
+  background-color: #fff; }
   .slick-arrow.slick-prev:hover {
     background-position: 40% center; }
 
 .slick-arrow.slick-next {
   right: 32px;
-  background-image: url(../img/icon-arrow-right.svg);
+  background-image: url(../img/icon-arrow-right-gradient.svg);
   background-position: center center;
   background-repeat: no-repeat;
-  background-color: rgba(255, 255, 255, 0.4); }
+  background-color: #fff; }
   .slick-arrow.slick-next:hover {
     background-position: 60% center; }
 
@@ -1770,6 +1775,9 @@ textarea {
     width: 100%;
     height: 100%; }
 
+.slick-list {
+  border-radius: 20px; }
+
 @media (max-width: 1280px) {
   .container {
     padding: 0 20px !important; }
@@ -1815,8 +1823,7 @@ textarea {
 
   .slider-item h2 {
     font-size: 32px;
-    line-height: 40px;
-    bottom: 28px; } }
+    line-height: 40px; } }
 @media (max-width: 960px) {
   .product-card-croup {
     grid-template-columns: 1fr !important;
@@ -2008,7 +2015,18 @@ textarea {
 
   .header-mobile-bottom_main {
     padding-top: 75px;
-    margin-bottom: 15px; } }
+    margin-bottom: 15px; }
+
+  .slider-item h2 {
+    padding: 30px 94px;
+    font-size: 22px;
+    line-height: 32px; }
+    .slider-item h2 span {
+      font-size: 22px;
+      line-height: 32px; }
+    .slider-item h2 b {
+      font-size: 40px;
+      line-height: 48px; } }
 @media (max-width: 764px) {
   .about-company-content ul {
     font-size: 14px !important; }
@@ -2119,7 +2137,19 @@ textarea {
 
   .stocks-item-sub {
     font-size: 14px;
-    line-height: 18px; } }
+    line-height: 18px; }
+
+  .slider-item h2 {
+    padding: 30px 94px;
+    font-size: 22px;
+    line-height: 32px; }
+    .slider-item h2 span {
+      font-size: 16px;
+      line-height: 22px;
+      display: block; }
+    .slider-item h2 b {
+      font-size: 32px;
+      line-height: 48px; } }
 @media (max-width: 600px) {
   .header-mobile-bottom {
     grid-template-columns: 1fr 1fr !important; }
@@ -2142,7 +2172,12 @@ textarea {
   .slider-item h2 {
     font-size: 20px;
     line-height: 28px;
-    left: 23px; }
+    padding: 15px 36px; }
+    .slider-item h2 b {
+      font-size: 27px; }
+    .slider-item h2 span {
+      font-size: 13px;
+      line-height: 20px; }
 
   .slick-dots li button {
     width: 10px;

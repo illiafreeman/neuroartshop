@@ -541,15 +541,20 @@ h2.h2-w {
     position: relative;
     h2{
         position: absolute;
-        bottom: 68px;
-        left: 68px;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
         margin: 0;
+        padding: 44px 70px;
         color: #fff;
+        background: rgba(0, 0, 0, 0.3);
         b{
             display: block;
+            font-size: 48px;
         }
         span{
             left: 32px;
+            font-size: 36px;
         }
     }
 }
@@ -568,20 +573,20 @@ h2.h2-w {
 }
 .slick-arrow.slick-prev{
     left: 32px;
-    background-image: url(../img/icon-arrow-left.svg);
+    background-image: url(../img/icon-arrow-left-gradient.svg);
     background-position: center center;
     background-repeat: no-repeat;
-    background-color: rgba(255, 255, 255, 0.4);
+    background-color: #fff;
     &:hover{
         background-position: 40% center;
     }
 }
 .slick-arrow.slick-next{
     right: 32px;
-    background-image: url(../img/icon-arrow-right.svg);
+    background-image: url(../img/icon-arrow-right-gradient.svg);
     background-position: center center;
     background-repeat: no-repeat;
-    background-color: rgba(255, 255, 255, 0.4);
+    background-color: #fff;
     &:hover{
         background-position: 60% center;
     }
@@ -1952,7 +1957,9 @@ textarea {
         height: 100%;
     }
 }
-
+.slick-list{
+    border-radius: 20px;
+}
 
 
 
@@ -2014,7 +2021,6 @@ textarea {
     .slider-item h2{
         font-size: 32px;
         line-height: 40px;
-        bottom: 28px;
     }
 }
 @media(max-width: 960px) {
@@ -2215,6 +2221,19 @@ textarea {
         padding-top: 75px;
         margin-bottom: 15px;
     }
+    .slider-item h2 {
+        padding: 30px 94px;
+        font-size: 22px;
+        line-height: 32px;
+        span{
+            font-size: 22px;
+            line-height: 32px;
+        }
+        b{
+            font-size: 40px;
+            line-height: 48px;
+        }
+    }
 } 
 @media(max-width: 764px) {
     .about-company-content ul {
@@ -2329,6 +2348,20 @@ textarea {
         font-size: 14px;
         line-height: 18px;
     }
+    .slider-item h2 {
+        padding: 30px 94px;
+        font-size: 22px;
+        line-height: 32px;
+        span{
+            font-size: 16px;
+            line-height: 22px;
+            display: block;
+        }
+        b{
+            font-size: 32px;
+            line-height: 48px;
+        }
+    }
 }
 @media(max-width: 600px) {
     .header-mobile-bottom {
@@ -2352,7 +2385,14 @@ textarea {
     .slider-item h2 {
         font-size: 20px;
         line-height: 28px;
-        left: 23px;
+        padding: 15px 36px;
+        b {
+            font-size: 27px;
+        }
+        span{
+            font-size: 13px;
+            line-height: 20px;
+        }
     }
     .slick-dots li button {
         width: 10px;
