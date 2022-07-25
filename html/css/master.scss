@@ -1778,7 +1778,9 @@ textarea {
 .section-title_min{
     display: none;
 }
-
+.header-mobile-bottom{
+    display: none  ;
+}
 
 
 
@@ -2022,7 +2024,23 @@ textarea {
     .header-mobile-top{
 
     }
-
+    .mobile-header{
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        background: #fff;
+        z-index: 1000;
+    }
+    main {
+        padding: 0;
+    }
+    .header-mobile-bottom {
+        display: flex;
+        margin-top: 66px;
+        justify-content: space-between;
+        width: 100%;
+    }
 } 
 @media(max-width: 764px) {
     .about-company-content ul {
