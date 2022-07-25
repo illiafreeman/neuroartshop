@@ -945,7 +945,7 @@ h2.h2-w {
   display: grid;
   column-gap: 80px;
   row-gap: 42px;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr; }
+  grid-template-columns: 1fr 1fr 1fr; }
 
 .footer-group nav a {
   color: #000;

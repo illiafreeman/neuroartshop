@@ -1,3 +1,5 @@
+
+
 $(document).ready(function(){
 	$('.hambu').click(function(){
         $('#menu-min').toggleClass('vis');
