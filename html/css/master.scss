@@ -1695,6 +1695,8 @@ line-height: 28px;
     font-size: 34px;
     line-height: 34px;
     font-family: Montserrat-Bold;
+    display: flex;
+    align-items: center;
 }
 .order-form input[type=radio] {
     width: 40px;
@@ -2498,14 +2500,186 @@ textarea {
         gap: 0 !important;
       }
       .cart-group-item {
-        grid-template-columns: 1fr auto !important;
+        grid-template-columns: 1fr 3fr !important;
       }
       .cart-group-price{
         display: flex;
         flex-direction: column;
+        align-items: flex-start;
       }
+      .count-group {
+        margin: 20px 0 ;
+      }
+      .cart-item-title{
+        margin: 30px 0 30px;
+      }
+      .cart-group-img{
+        margin-right: 30px;
+      }
+      .cart-group-price {
+        font-size: 18px;
+        line-height: 18px;
+        & > span{
+            display: flex;
+            width: 190px;
+            justify-content: center;
+            font-size: 24px;
+        }
+      }
+      .cart-group-img {
+        display: block;
+        width: 100px;
+        height: 100px;
+      }
+      .cart-item-title {
+        font-size: 14px !important;
+        line-height: 17px !important;
+            margin: 30px 0 10px;
+      }
+      .form-promo > input[type="text"], .order-form input[type="text"] {
+        padding: 12px 18px;
+        border-radius: 44px;
+        width: 100%;
+        font-size: 14px;
+        line-height: 16px;
+        font-family: Montserrat-Regular;
+      }
+      .form-promo > input[type="text"]::placeholder, .order-form input[type="text"]::placeholder{
+        font-size: 14px;
+        line-height: 16px;
+      }
+      .form-promo > .btn {
+        border-radius: 40px;
+        font-family: Montserrat-Regular;
+        font-weight: 500;
+        font-size: 14px;
+line-height: 16px;
+padding: 12px 30px;
+      }
+      .form-promo{
+        margin-bottom: 30px;
+      }
+      .min-sum-info {
+        font-size: 14px;
+line-height: 16px;
+      }
+      .min-sum-info::before {
+        top: 8px;
+      }
+      .calculation-group{
+        padding: 12px 18px;
+        border-radius: 20px;
+      }
+      .calculation-group > li {
+        list-style-type: none;
+        display: grid;
+        grid-template-columns: 70% 30%;
+        grid-auto-flow: column;
+        justify-content: space-between;
+        font-family: Montserrat-Regular;
+        font-size: 14px;
+line-height: 16px;
+        margin-bottom: 16px;
+      }
+      .calculation-group > li .calc-sum {
+        font-family: Montserrat-Bold;
+        font-size: 14px;
+        line-height: 16px;
+      }
+      .radio-item > label {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        font-family: Montserrat-Regular;
+        cursor: pointer;
+        position: relative;
+        padding-left: 56px;
+        height: 34px;
+        display: flex;
+        align-items: center;
+      }
+
+      .radio-item > label::before {
+        content: "";
+        display: inline-block;
+        width: 34px;
+        height: 34px;
+        position: absolute;
+        left: 0;
+        bottom: 1px;
+        background-size: cover;
+        background-image: url(../img/radio.svg);
+        background-position: 0 0;
+        background-repeat: no-repeat;
+      }
+      .order-form input[type="radio"]:checked + label::before {
+        background-size: cover;
+        background-image: url(../img/radio_act.svg);
+        background-position: 0 0;
+        background-repeat: no-repeat;
+      }
+      .radio-sum {
+        font-size: 18px;
+        line-height: 18px;
+      }
+      .radio-item__sub {
+        width: 100%;
+        font-size: 12px;
+        line-height: 15px;
+        font-family: Montserrat-Regular;
+        font-weight: 300;
+        margin-top: 20px;
+      }
+      .radio-item__sub-min {
+        width: 100%;
+        font-size: 11px;
+        line-height: 13px;
+        font-family: Montserrat-Regular;
+        font-weight: 300;
+        margin-top: 10px;
+        color: #919191;
+      }
+      .order-form-title {
+        margin: 30px 0 13px 0 !important;
+      }
+
+      .radio-group > .radio-item {
+        border-bottom: 1px solid #000;
+        padding: 18px 0;
+      }
+      .radio-group {
+        margin: 0;
+      }
+      textarea {
+        border: 1px solid #000000;
+        border-radius: 20px;
+        padding: 18px;
+        width: 100%;
+        height: 200px;
+        margin: 0 0 14px 0;
+        font-size: 14px;
+        line-height: 16px;
+        font-family: "Montserrat-Regular";
+      }
+      textarea::placeholder{
+        font-size: 14px;
+        line-height: 16px;
+      }
+      .btn{
+        border-radius: 40px;
+        font-size: 14px;
+        line-height: 16px;
+        padding: 12px 30px;
+      }
+      
+
 }
 @media(max-width: 600px) {
+    .radio-item_nw{
+        label{
+            width: 200px;
+        }
+  }
     .header-mobile-bottom {
         grid-template-columns: 1fr 1fr!important;
     }
@@ -2519,11 +2693,20 @@ textarea {
         font-size: 14px!important;
     }
     .cart-group-img {
-        grid-row: unset!important;
+        //grid-row: unset!important;
     }
+    .count-group {
+        margin: 20px 0;
+      }
+      .cart-group{
+        gap: 30px !important;
+      }
     .cart-group-item {
-        grid-template-columns: 1fr!important;
+        //grid-template-columns: 1fr!important;
     }
+    .cart-item-title {
+        margin: 30px 0 10px;
+      }
     .slider-item h2 {
         font-size: 20px;
         line-height: 28px;
@@ -2607,6 +2790,19 @@ textarea {
     .whom-img-group > img {
         width: 40% !important;
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
 @media(max-width: 480px) {
     .mobile-soc-group-icons {
@@ -2690,9 +2886,26 @@ textarea {
             height: 160px !important;
         }
     }
-
-
-
+    .count-group > input {
+        border: 2px solid #B3B3B3;
+        border-radius: 30px;
+        padding: 8px 8px;
+        width: 60px;
+        margin: 0;
+        font-family: Montserrat-Regular;
+        font-size: 16px;
+        line-height: 22px;
+        text-align: center;
+      }
+      .cart-group-price > span {
+        display: flex;
+        width: 170px;
+      }
+      .cart-group-img {
+        display: block;
+        width: 80px;
+        height: 80px;
+      }
 
 
 
