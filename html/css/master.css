@@ -1054,10 +1054,34 @@ h2.h2-w {
   padding: 43px;
   border-top: 1px solid #000;
   display: none;
-  font-family: Montserrat-Regular;
-  font-weight: 500;
+  font-family: Montserrat-Medium;
   font-size: 22px;
   line-height: 24px; }
+  .drop-list-content h3 {
+    font-weight: 800;
+    font-size: 22px;
+    line-height: 24px;
+    margin: 0 0 60px; }
+  .drop-list-content h4 {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 24px;
+    margin: 40px 0 20px; }
+  .drop-list-content p {
+    margin: 0 0 26px; }
+    .drop-list-content p:last-child {
+      margin: 0; }
+  .drop-list-content ul {
+    margin: 20px 0; }
+    .drop-list-content ul li {
+      list-style-type: disc; }
+  .drop-list-content b {
+    font-family: Montserrat-Bold;
+    font-weight: 400; }
+  .drop-list-content a {
+    color: #000; }
+    .drop-list-content a:hover {
+      text-decoration: none; }
 
 .catalog-filter-form {
   display: flex;
