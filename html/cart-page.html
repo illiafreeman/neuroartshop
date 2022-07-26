@@ -396,9 +396,9 @@
                         <div class="cart-group-price">
                             119 ₽
                             <div class="count-group">
-                                <div class="plus">+</div>
-                                <input type="text" class="count" value="1">
                                 <div class="minus">-</div>
+                                <input class="form-control" type="text" value="1"/>
+                                <span class="plus">+</span>
                             </div>
                             119 ₽
                         </div>
@@ -409,15 +409,14 @@
                             <img src="./img/slider/popular-products/4.png" alt="">
                         </a>
                         <a href="product-card.html" class="cart-item-title">
-                            Rock Nail, Гель-лак Sugar 
                             Free 865 2Sweet4Me, 10 мл
                         </a>
                         <div class="cart-group-price">
                             119 ₽
                             <div class="count-group">
-                                <div class="plus">+</div>
-                                <input type="text" class="count" value="1">
                                 <div class="minus">-</div>
+                                <input class="form-control" type="text" value="1"/>
+                                <span class="plus">+</span>
                             </div>
                             119 ₽
                         </div>
@@ -430,7 +429,7 @@
                         <input class="btn" type="submit" value="Применить">
                     </form>
                     <div class="min-sum-info">
-                        Минимальная сумма<br> заказа 1000 ₽ 
+                        Минимальная сумма<br>заказа&nbsp;<span>1000 ₽</span>
                     </div>
                 </div>
                 <ul class="calculation-group">
@@ -438,7 +437,7 @@
                         <span>Самовывоз из магазина:</span><div class="calc-sum">0р</div>
                     </li>
                     <li>
-                        <span>Итого:</span><div class="calc-sum">0р</div>
+                        <span>Итого:</span><div class="calc-sum">1000 ₽</div>
                     </li>
                 </ul>
                 <form action="" class="order-form">
@@ -450,18 +449,18 @@
                     <input type="text" placeholder="Адрес">
                     <div class="radio-group">
                         <div class="radio-item">
-                            <input type="radio" name="delivery" value="Самовывоз из магазина">
-                            <label for="">Самовывоз из магазина</label>
+                            <input id="del1" type="radio" name="delivery" value="Самовывоз из магазина">
+                            <label for="del1">Самовывоз из магазина</label>
                             <div class="radio-sum">0 ₽</div>
                         </div>
                         <div class="radio-item">
-                            <input type="radio" name="delivery" value="Курьерская доставка">
-                            <label for="">Курьерская доставка</label>
+                            <input id="del2" type="radio" name="delivery" value="Курьерская доставка">
+                            <label for="del2">Курьерская доставка</label>
                             <div class="radio-sum">300 ₽</div>
                         </div>
                         <div class="radio-item">
-                            <input type="radio" name="delivery" value="Самовывоз из пункта выдачи СДЭК">
-                            <label for="">Самовывоз из пункта выдачи СДЭК</label>
+                            <input id="del3" type="radio" name="delivery" value="Самовывоз из пункта выдачи СДЭК">
+                            <label for="del3">Самовывоз из пункта выдачи СДЭК</label>
                             <div class="radio-sum">300 ₽</div>
                         </div>
                     </div>
@@ -518,8 +517,16 @@
             </div>
         </div>
     </footer>
-    <script src="./js/jquery_2.1.1.min.js" defer></script>
-    <script src="./js/master.js" defer></script>
+    <script src="./js/jquery_2.1.1.min.js" ></script>
+    <script src="./js/master.js" ></script>
+    <script>
+            $('.plus').click(function () {
+                var $input = $(this).parent().find('input');
+                $input.val(parseInt($input.val()) + 1);
+                $input.change();
+                return false;
+            });
+    </script>
 </body>
 
 </html>
