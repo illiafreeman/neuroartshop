@@ -2082,8 +2082,14 @@ textarea {
 .slick-list{
     border-radius: 20px;
 }
-
-
+.container-head{
+    margin-bottom: 60px;
+}
+.discount-group{
+    .stocks-item:nth-child(1) {
+        grid-row: 1;
+      }
+}
 
 
 
@@ -2366,6 +2372,18 @@ textarea {
         b{
             font-size: 40px;
             line-height: 48px;
+        }
+    }
+    .title-group > h1 {
+        grid-row: 2 !important;
+        font-size: 40px;
+        line-height: 50px;
+        margin-bottom: 0;
+    }
+    .container-head {
+        margin-bottom: 0;
+        .title-group > img {
+            display: none;
         }
     }
 } 
@@ -2790,7 +2808,12 @@ line-height: 16px;
     .whom-img-group > img {
         width: 40% !important;
     }
-
+    .title-group > h1 {
+        grid-row: 2 !important;
+        font-size: 24px;
+        line-height: 40px;
+        margin: 0;
+      }
 
 
 

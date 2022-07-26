@@ -2,37 +2,255 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+
+
+
+    <link rel="apple-touch-icon" sizes="152x152" href="img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <link rel="manifest" href="img/site.webmanifest">
+    <link rel="mask-icon" href="img/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    
+    
+
+    <title>Discounts</title>
+
     <link rel="stylesheet" href="./css/master.css">
-    <script src="./js/master.js" defer></script>
-    <title>Document</title>
+    
+    
 </head>
 <body>
     <header>
         <div class="mobile-header">
             <div class="header-mobile-top">
-                <a href="index.html"><img class="mobile-logo" src="./img/logo.png" alt=""></a>
-                <img onclick="mobile_menu_open()" src="./img/icons/menu-hamburger.png" alt="">
-            </div>
-            <div class="header-mobile-bottom">
-                <div class="mobile-soc-group-icons">
-                    <a href=""><img src="./img/icons/lk.png" alt=""></a>
-                    <a href=""><img src="./img/icons/favourite.png" alt=""></a>
-                    <a href=""><img src="./img/icons/cart.png" alt=""></a>
+                <a href="index.html"><img class="mobile-logo" src="./img/logo.svg" alt=""></a>
+                <div class="df">
+                    <img class="back" src="./img/back.svg" alt="">
+                    <img class="hambu vis" src="./img/icon-burger.svg" alt="">
                 </div>
-                <div class="search-wrapper"><input placeholder="Поиск" type="text" class="search"></div>
+                
             </div>
-            <div class="mobile-menu">
-                <nav class="mobile-nav-menu">
-                    <a href="catalog.html">Каталог</a>
-                    <a href="discounts.html">Акции</a>
-                    <a href="">Новинки</a>
-                    <a href="">Распродажа</a>
-                    <a href="">Бренды</a>
-                </nav>
+            
+        </div>
+        <div class="header-mobile-bottom header-mobile-bottom_main">
+            <div class="mobile-soc-group-icons">
+                <a href="">
+                    <svg>
+                        <use xlink:href="img/sprite.svg#icon-user"></use>
+                    </svg>
+                </a>
+                <a href="">
+                    <svg>
+                        <use xlink:href="img/sprite.svg#icon-heart"></use>
+                    </svg>
+                </a>
+                <a href="">
+                    <svg>
+                        <use xlink:href="img/sprite.svg#icon-bascet"></use>
+                    </svg>
+                </a>
+            </div>
+            <div class="search-wrapper">
+                <svg>
+                    <use xlink:href="img/sprite.svg#icon-search"></use>
+                </svg>
+                <input placeholder="Поиск" type="text" class="search">
             </div>
         </div>
+        
+        <div id="menu-min" class="menu-min">
+            <div class="header-mobile-bottom">
+                <div class="mobile-soc-group-icons">
+                    <a href="">
+                        <svg>
+                            <use xlink:href="img/sprite.svg#icon-user"></use>
+                        </svg>
+                    </a>
+                    <a href="">
+                        <svg>
+                            <use xlink:href="img/sprite.svg#icon-heart"></use>
+                        </svg>
+                    </a>
+                    <a href="">
+                        <svg>
+                            <use xlink:href="img/sprite.svg#icon-bascet"></use>
+                        </svg>
+                    </a>
+                </div>
+                <div class="search-wrapper">
+                    <svg>
+                        <use xlink:href="img/sprite.svg#icon-search"></use>
+                    </svg>
+                    <input placeholder="Поиск" type="text" class="search">
+                </div>
+            </div>
+            <nav class="main-nav">
+                <span id="catalog-sub" class="catalog" href="catalog.html">
+                    Каталог
+                    <svg>
+                        <use xlink:href="img/sprite.svg#icon-angle-down"></use>
+                    </svg>
+                    
+                </span>
+                <a href="discounts.html">Акции</a>
+                <a href="">Новинки</a>
+                <a href="">Распродажа</a>
+                <span id="brand-sub" >
+                    Бренды
+                    <svg>
+                        <use xlink:href="img/sprite.svg#icon-angle-down"></use>
+                    </svg>
+                    
+                </span>
+            </nav>
+            <div class="contact-group">
+                <a href="#"> +7 (977) 411 41 51</a>
+                <div class="contact-group-soc">
+                    <a href=""><img src="./img/icon-footer-telega.svg" alt=""></a>
+                    <a href=""><img src="./img/icon-footer-vk.svg" alt=""></a>
+                    <a href=""><img src="./img/icon-footer-watsapp.svg" alt=""></a>
+                </div>
+                <a class="contact-group-mail" href="mailto:info@cultmanicura.ru">info@cultmanicura.ru</a>
+            </div>
+        </div>
+
+        <div id="catalog-submenu" class="menu-min">
+            <div class="header-mobile-bottom">
+                <div class="mobile-soc-group-icons">
+                    <a href="">
+                        <svg>
+                            <use xlink:href="img/sprite.svg#icon-user"></use>
+                        </svg>
+                    </a>
+                    <a href="">
+                        <svg>
+                            <use xlink:href="img/sprite.svg#icon-heart"></use>
+                        </svg>
+                    </a>
+                    <a href="">
+                        <svg>
+                            <use xlink:href="img/sprite.svg#icon-bascet"></use>
+                        </svg>
+                    </a>
+                </div>
+                <div class="search-wrapper">
+                    <svg>
+                        <use xlink:href="img/sprite.svg#icon-search"></use>
+                    </svg>
+                    <input placeholder="Поиск" type="text" class="search">
+                </div>
+            </div>
+            <ul class="sub">
+                <li><a href="">Наборы</a></li>            
+                <li><a href="">Гель-лаки</a></li>            
+                <li><a href="">Оборудование</a></li>            
+                <li><a href="">Фрезы</a></li>            
+                <li><a href="">Дизайн</a></li>            
+                <li><a href="">Инструменты, пилки, кисти</a></li>            
+                <li><a href="">Наращивание и моделирование</a></li>            
+                <li><a href="">Жидкости, обезжириватели</a></li>            
+                <li><a href="">Уход и лечение</a></li>            
+                <li><a href="">Лаки</a></li>            
+                <li><a href="">Сопутствующие товары</a></li>            
+                <li><a href="">Расходные материалы</a></li>            
+                <li><a href="">Депиляция</a></li>            
+                <li><a href="">Парафинотерапия</a></li>            
+                <li><a href="">Ресницы, Брови</a></li>            
+                <li><a href="">Подарочные сертификаты</a></li>            
+            </ul>
+            <div class="contact-group">
+                <a href="#"> +7 (977) 411 41 51</a>
+                <div class="contact-group-soc">
+                    <a href=""><img src="./img/icon-footer-telega.svg" alt=""></a>
+                    <a href=""><img src="./img/icon-footer-vk.svg" alt=""></a>
+                    <a href=""><img src="./img/icon-footer-watsapp.svg" alt=""></a>
+                </div>
+                <a class="contact-group-mail" href="mailto:info@cultmanicura.ru">info@cultmanicura.ru</a>
+            </div>
+        </div>
+
+
+
+        <div id="brand-submenu" class="menu-min">
+            <div class="header-mobile-bottom">
+                <div class="mobile-soc-group-icons">
+                    <a href="">
+                        <svg>
+                            <use xlink:href="img/sprite.svg#icon-user"></use>
+                        </svg>
+                    </a>
+                    <a href="">
+                        <svg>
+                            <use xlink:href="img/sprite.svg#icon-heart"></use>
+                        </svg>
+                    </a>
+                    <a href="">
+                        <svg>
+                            <use xlink:href="img/sprite.svg#icon-bascet"></use>
+                        </svg>
+                    </a>
+                </div>
+                <div class="search-wrapper">
+                    <svg>
+                        <use xlink:href="img/sprite.svg#icon-search"></use>
+                    </svg>
+                    <input placeholder="Поиск" type="text" class="search">
+                </div>
+            </div>
+            <ul class="sub">
+                <li><a href="">Ami</a></li>            
+                <li><a href="">Aravia</a></li>            
+                <li><a href="">Atis Professional</a></li>            
+                <li><a href="">Bagheera Nails</a></li>            
+                <li><a href="">Barbara</a></li>            
+                <li><a href="">Benovy</a></li>            
+                <li><a href="">Codyson</a></li>            
+                <li><a href="">Cosmos</a></li>            
+                <li><a href="">CosmoLac</a></li>            
+                <li><a href="">Cosmoprofi</a></li>            
+                <li><a href="">Depiflax</a></li>            
+                <li><a href="">Diva</a></li>            
+                <li><a href="">Domix</a></li>            
+                <li><a href="">EVI</a></li>            
+                <li><a href="">Gellaktik</a></li>            
+                <li><a href="">Grattol</a></li>            
+                <li><a href="">Go Stamp</a></li>            
+                <li><a href="">Imen</a></li>            
+                <li><a href="">Impreza</a></li>            
+                <li><a href="">In'Garden</a></li>            
+                <li><a href="">Italwax</a></li>            
+                <li><a href="">JAS</a></li>            
+                <li><a href="">Jas-Air</a></li>            
+                <li><a href="">Kinetics</a></li>            
+                <li><a href="">Klio</a></li>            
+                <li><a href="">Kodi</a></li>            
+                <li><a href="">LAQUE</a></li>            
+                <li><a href="">LIANAIL</a></li>            
+                <li><a href="">Lisanail</a></li>            
+            </ul>
+            <div class="contact-group">
+                <a href="#"> +7 (977) 411 41 51</a>
+                <div class="contact-group-soc">
+                    <a href=""><img src="./img/icon-footer-telega.svg" alt=""></a>
+                    <a href=""><img src="./img/icon-footer-vk.svg" alt=""></a>
+                    <a href=""><img src="./img/icon-footer-watsapp.svg" alt=""></a>
+                </div>
+                <a class="contact-group-mail" href="mailto:info@cultmanicura.ru">info@cultmanicura.ru</a>
+            </div>
+        </div>
+
+
+
+
+
+
+        
+
+
         <div class="top-header">
             <div class="container container-grid">
                 <div class="top-nav">
@@ -41,7 +259,7 @@
                         <a href="o-kompanii.html">О компании</a>
                         <a href="kontakty.html">Контакты</a>
                     </div>
-                    <a class="top-nav-phone" href="#">+7 (977) 411 41 51</a>
+                    <a class="top-nav-phone" href="callto:+79774114151">+7 (977) 411 41 51</a>
                 </div>
             </div>
         </div>
@@ -50,12 +268,27 @@
                 <div class="middle-group">
                     <div></div>
                     <div class="logo-wrapper">
-                        <a href="index.html"><img src="./img/logo.png" alt=""></a>
+                        <a href="index.html"><img src="./img/logo.svg" alt=""></a>
                     </div>
                     <div class="middle-nav">
-                        <a href="#">Вход</a>
-                        <a href="izbrannoe.html">Избранное</a>
-                        <a href="cart-page.html">Корзина</a>
+                        <a href="#">
+                            Вход
+                            <svg>
+                                <use xlink:href="img/sprite.svg#icon-user"></use>
+                            </svg>
+                        </a>
+                        <a href="izbrannoe.html">
+                            Избранное
+                            <svg>
+                                <use xlink:href="img/sprite.svg#icon-heart"></use>
+                            </svg>
+                        </a>
+                        <a href="cart-page.html">
+                            Корзина
+                            <svg>
+                                <use xlink:href="img/sprite.svg#icon-bascet"></use>
+                            </svg>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -64,95 +297,185 @@
             <div class="container container-grid">
                 <div class="main-nav-group">
                     <nav class="main-nav">
-                        <a href="catalog.html">Каталог</a>
+                        <span class="catalog" href="catalog.html">
+                            Каталог
+                            <svg>
+                                <use xlink:href="img/sprite.svg#icon-angle-down"></use>
+                            </svg>
+                            <ul class="catalog__submenu">
+                                <li><a href="">Наборы</a></li>            
+                                <li><a href="">Гель-лаки</a></li>            
+                                <li><a href="">Оборудование</a></li>            
+                                <li><a href="">Фрезы</a></li>            
+                                <li><a href="">Дизайн</a></li>            
+                                <li><a href="">Инструменты, пилки, кисти</a></li>            
+                                <li><a href="">Наращивание и моделирование</a></li>            
+                                <li><a href="">Жидкости, обезжириватели</a></li>            
+                                <li><a href="">Уход и лечение</a></li>            
+                                <li><a href="">Лаки</a></li>            
+                                <li><a href="">Сопутствующие товары</a></li>            
+                                <li><a href="">Расходные материалы</a></li>            
+                                <li><a href="">Депиляция</a></li>            
+                                <li><a href="">Парафинотерапия</a></li>            
+                                <li><a href="">Ресницы, Брови</a></li>            
+                                <li><a href="">Подарочные сертификаты</a></li>            
+                            </ul>
+                        </span>
                         <a href="discounts.html">Акции</a>
                         <a href="">Новинки</a>
                         <a href="">Распродажа</a>
-                        <a href="" class="brands-hover">Бренды</a>
+                        <span>
+                            Бренды
+                            <svg>
+                                <use xlink:href="img/sprite.svg#icon-angle-down"></use>
+                            </svg>
+                            <ul class="submenu">
+                                <li><a href="">Ami</a></li>            
+                                <li><a href="">Aravia</a></li>            
+                                <li><a href="">Atis Professional</a></li>            
+                                <li><a href="">Bagheera Nails</a></li>            
+                                <li><a href="">Barbara</a></li>            
+                                <li><a href="">Benovy</a></li>            
+                                <li><a href="">Codyson</a></li>            
+                                <li><a href="">Cosmos</a></li>            
+                                <li><a href="">CosmoLac</a></li>            
+                                <li><a href="">Cosmoprofi</a></li>            
+                                <li><a href="">Depiflax</a></li>            
+                                <li><a href="">Diva</a></li>            
+                                <li><a href="">Domix</a></li>            
+                                <li><a href="">EVI</a></li>            
+                                <li><a href="">Gellaktik</a></li>            
+                                <li><a href="">Grattol</a></li>            
+                                <li><a href="">Go Stamp</a></li>            
+                                <li><a href="">Imen</a></li>            
+                                <li><a href="">Impreza</a></li>            
+                                <li><a href="">In'Garden</a></li>            
+                                <li><a href="">Italwax</a></li>            
+                                <li><a href="">JAS</a></li>            
+                                <li><a href="">Jas-Air</a></li>            
+                                <li><a href="">Kinetics</a></li>            
+                                <li><a href="">Klio</a></li>            
+                                <li><a href="">Kodi</a></li>            
+                                <li><a href="">LAQUE</a></li>            
+                                <li><a href="">LIANAIL</a></li>            
+                                <li><a href="">Lisanail</a></li>            
+                            </ul>
+                        </span>
                     </nav>
-                    <div class="search-wrapper"><input placeholder="Поиск" type="text" class="search"></div>
-                </div>
-            </div>
-        </div>
-        <div class="brands-wrapper">
-            <div class="container">
-                <div class="brands-list">
-                    <a href="">Ami</a>
-                    <a href="">Aravia</a>
-                    <a href="">Atis Professional</a>
-                    <a href="">Bagheera Nails</a>
-                    <a href="">Barbara</a>
-                    <a href="">Benovy</a>
-                    <a href="">Camillen</a>
-                    <a href="">Codyson</a>
-                    <a href="">Cosmos</a>
-                    <a href="">CosmoLac</a>
-                    <a href="">Cosmoprofi</a>
-                    <a href="">Depiflax</a>
-                    <a href="">Diva</a>
-                    <a href="">Domix</a>
-                    <a href="">EVI</a>
-                    <a href="">Gellaktik</a>
-                    <a href="">Grattol</a>
-                    <a href="">Go Stamp</a>
+                    <div class="search-wrapper">
+                        <svg>
+                            <use xlink:href="img/sprite.svg#icon-search"></use>
+                        </svg>
+                        <input placeholder="Поиск" type="text" class="search">
+                    </div>
                 </div>
             </div>
         </div>
     </header>
     <main>
         <section>
-            <div class="container container-grid grid-flow-column justify-content-between">
+            <div class="container container-grid grid-flow-column justify-content-between container-head">
                 <div class="title-group">
                     <h1>Акции</h1>
                     <img src="./img/discounts.png" alt="">
                 </div>
                 <div class="icons-wrapper">
-                    <img src="./img/icons/t.png" alt="">
-                    <img src="./img/icons/v.png" alt="">
-                    <img src="./img/icons/w.png" alt="">
+                    <div class="icons-wrapper__inner">
+                        <a href="">
+                            <img src="img/icon-telega.svg" alt="">
+                        </a>
+                        <a href="">
+                            <img src="img/icon-vk.svg" alt="">
+                        </a>
+                        <a href="">
+                            <img src="img/icon-watsapp.svg" alt="">
+                        </a>
+                    </div>
                 </div>
             </div>
         </section>
-        <div class="section-wrapper">
-            <div class="container">
-                <div class="discounts-group">
-                    <div class="discounts-item"></div>
-                    <div class="discounts-item"></div>
-                    <div class="discounts-item"></div>
+        <section>
+            <div class="container container-grid grid-flow-row">
+                <div class="stocks-group discount-group">
+                    <a href="" class="stocks-item">
+                        <img src="./img/stocks/-15-na-oborudovanie.png" alt="">
+                        <span class="stocks-item-title">3+1 Гель-лаки 
+                            Cosmolac
+                        </span>
+                        <span class="stocks-item-label stocks-item-label_pink">
+                            3+1
+                        </span>
+                    </a>
+                    <a href="" class="stocks-item">
+                        <img src="./img/stocks/-30-na-kraski.png" alt="">
+                        <span class="stocks-item-title">-30% на краски</span>
+                        <span class="stocks-item-label stocks-item-label_violet">
+                            -30%
+                        </span>
+                        <span class="stocks-item-sub">Скидка 28% на всю основную 
+                            коллекцию Diva</span>
+                    </a>
+                    <a href="" class="stocks-item">
+                        <img src="./img/stocks/-20-na-sredstva-dlya-dezinfekcii.png" alt="">
+                        <span class="stocks-item-title">-20% на средства
+                            для дезинфекции</span>
+                            <span class="stocks-item-label stocks-item-label_green">
+                                -30%
+                            </span>
+                    </a>
+                    <a href="" class="stocks-item">
+                        <img src="./img/stocks/-28-na-gel-laki-diva-.png" alt="">
+                        <span class="stocks-item-title">-28% на гель-лаки Diva </span>
+                        <span class="stocks-item-sub">Скидка 28% на всю основную 
+                            коллекцию Diva</span>
+                        <span class="stocks-item-label stocks-item-label_green">
+                            -30%
+                        </span>
+                    </a>
+                    <a href="" class="stocks-item">
+                        <img src="./img/stocks/-15-na-oborudovanie.png" alt="">
+                        <span class="stocks-item-title">-15% на оборудование</span>
+                        <span class="stocks-item-label stocks-item-label_violet">
+                            -30%
+                        </span>
+                    </a>
                 </div>
             </div>
-        </div>
+        </section>
     </main>
     <footer>
         <div class="container">
             <div class="footer-group">
-                <img src="./img/footer-logo.png" alt="">
+                <a href="">
+                    <img src="./img/footer-logo.svg" alt="">
+                </a>
                 <nav>
                     <a href="#">Доставка и оплата</a>
-                    <a href="#">О компании</a>
+                    <a href="#">О&nbsp;компании</a>
                     <a href="#">Контакты</a>
+                    <a href="#">Политика&nbsp;конфиденциальности</a>
                     <a href="#">Акции</a>
-                    <a href="#">Распродажа</a>
-                    <a href="#">Возврат</a>
-                    <a href="#">Адрес</a>
                     <a href="#">Каталог</a>
-                    <a href="#">Новинки</a>
-                    <a href="#">Бренды</a>
                 </nav>
                 <div class="footer-contact-group">
                     <a href="#"> +7 (977) 411 41 51</a>
-                    <img src="./img/icons/footer-tg.png" alt="">
-                    <img src="./img/icons/footer-vk.png" alt="">
-                    <img src="./img/icons/footer-wh.png" alt="">
+                    <div class="footer-soc">
+                        <a href=""><img src="./img/icon-footer-telega.svg" alt=""></a>
+                        <a href=""><img src="./img/icon-footer-vk.svg" alt=""></a>
+                        <a href=""><img src="./img/icon-footer-watsapp.svg" alt=""></a>
+                    </div>
+                        
                     <a class='footer-contact-group-mail' href="mailto:info@cultmanicura.ru">info@cultmanicura.ru</a>
                 </div>
                 <div class="footer-row">
                     <p>© 2022 CultNailTeam</p>
-                    <a href="">Задизайнено web-off.ru</a>
+                    <p class="stu">Задизайнено&nbsp;<a href="">web-off.ru</a></p>
                 </div>
             </div>
         </div>
     </footer>
+    <script src="./js/jquery_2.1.1.min.js" ></script>
+    <script src="./js/master.js" ></script>
     <script src="./js/drop-list.js" defer></script>
 </body>
 </html>

@@ -1880,6 +1880,12 @@ textarea {
 .slick-list {
   border-radius: 20px; }
 
+.container-head {
+  margin-bottom: 60px; }
+
+.discount-group .stocks-item:nth-child(1) {
+  grid-row: 1; }
+
 @media (max-width: 1280px) {
   .container {
     padding: 0 20px !important; }
@@ -2135,7 +2141,18 @@ textarea {
       line-height: 32px; }
     .slider-item h2 b {
       font-size: 40px;
-      line-height: 48px; } }
+      line-height: 48px; }
+
+  .title-group > h1 {
+    grid-row: 2 !important;
+    font-size: 40px;
+    line-height: 50px;
+    margin-bottom: 0; }
+
+  .container-head {
+    margin-bottom: 0; }
+    .container-head .title-group > img {
+      display: none; } }
 @media (max-width: 764px) {
   .about-company-content ul {
     font-size: 14px !important; }
@@ -2535,7 +2552,13 @@ textarea {
     gap: 0px !important; }
 
   .whom-img-group > img {
-    width: 40% !important; } }
+    width: 40% !important; }
+
+  .title-group > h1 {
+    grid-row: 2 !important;
+    font-size: 24px;
+    line-height: 40px;
+    margin: 0; } }
 @media (max-width: 480px) {
   .mobile-soc-group-icons {
     gap: 0px; }
