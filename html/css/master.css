@@ -1036,23 +1036,22 @@ h2.h2-w {
 .drop-list > li {
   list-style-type: none;
   border: 1px solid #000000;
-  border-radius: 40px;
-  padding: 43px; }
-
-.drop-list-title {
-  position: relative;
-  width: 100%;
-  display: grid;
-  grid-auto-flow: column;
-  justify-content: space-between;
-  font-family: Montserrat-Medium;
-  font-weight: 700;
-  font-size: 22px;
-  line-height: 24px; }
+  border-radius: 40px; }
+  .drop-list > li .drop-list-title {
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: space-between;
+    font-family: Montserrat-Medium;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 28px;
+    cursor: pointer;
+    padding: 43px; }
 
 .drop-list-content {
-  padding: 30px 0 0 0;
-  margin: 30px 0 0 0;
+  padding: 43px;
   border-top: 1px solid #000;
   display: none;
   font-family: Montserrat-Regular;
