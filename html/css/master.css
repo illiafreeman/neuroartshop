@@ -3257,7 +3257,7 @@ textarea::placeholder {
   padding: 20px 10px;
 }
 
-.irs-to, .irs-from, .irs-max {
+.irs-to, .irs-from, .irs-max, .irs-single {
   display: none;
 }
 
