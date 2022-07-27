@@ -24,10 +24,21 @@ $(document).ready(function(){
 		$('.hambu').addClass('vis');
     });
 
-
-
-
-
+	$('.filter__title').click(function (e) {
+        $('.filter').not($(this).parents('.filter')).removeClass('filter_act');
+        $(this).parents('.filter').toggleClass('filter_act');
+    });
+	$('body').click(function () {
+        $('.filter').removeClass('filter_act');
+    });
+	$('.filter__dropdown').click(function (e) {
+        e.stopPropagation();
+        $('.filter').not($(this).parents('.filter')).removeClass('filter_act');
+        $(this).parents('.filter').toggleClass('filter_act');
+    });
+	$('.filter').click(function (e) {
+        e.stopPropagation();
+    });
 
 
 });
