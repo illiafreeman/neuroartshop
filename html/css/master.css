@@ -2080,7 +2080,10 @@ h2.h2-w {
   padding: 10px 30px;
   border: 1px solid #000;
   border-radius: 20px;
+  transition: all 0.2s ease-in-out;
   margin: 0 10px 10px 0;
+  text-decoration: none;
+  color: #000;
 }
 
 .filter-item:hover {
@@ -2092,7 +2095,7 @@ h2.h2-w {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
-  gap: 25px;
+  gap: 40px 25px;
 }
 
 .catalog-item {
@@ -2100,9 +2103,14 @@ h2.h2-w {
   width: calc(25% - 25px);
   display: flex;
   flex-direction: column;
+  padding-bottom: 15px;
+  transition: all 0.2s ease-in-out;
 }
 .catalog-item .add-card-btn {
   align-self: center;
+}
+.catalog-item:hover {
+  box-shadow: 0px 8px 48px 2px rgba(0, 0, 0, 0.12);
 }
 
 .catalog-item > img {
