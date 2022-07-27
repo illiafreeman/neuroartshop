@@ -2179,7 +2179,6 @@ $color-gray: #969696;
 
 .filter{
     width: calc(20% - 30px);
-    border: 1px solid #e5e5e5;
     position: relative;
     z-index: 100;
     transition: $transition;
@@ -2230,35 +2229,36 @@ $color-gray: #969696;
             right: 10px;
         }
     }
-    &:hover{
-        border: 1px solid #c8c8c8;
-    }
+
     &__title{
-        height: 60px;
-        padding: 0 30px 0 20px;
+        height: 54px;
         @extend %flex;
-        justify-content: flex-start;
-        font-size: 13px;
-        text-transform: uppercase;
-        letter-spacing: 2px;
+        justify-content: center;
+        font-size: 16px;
         position: relative;
         cursor: pointer;
         transition: $transition;
         z-index: 100;
-        //background: #fff;
+        font-family: Montserrat-Medium;
+        background: #000;
+        color: #fff;
         line-height: 1;
+        border-radius: 20px;
         &:after{
             @extend %after;
             width: 10px;
             height: 10px;
             top: 25px;
             right: 15px;
-            background: url(../img/icon_arrow_footer_down.svg) center center no-repeat;
             transition: $transition;
         }
         span{
-            color: #969696;
-            padding-left: 3px;
+            display: flex;
+            width: 16px;
+            height: 16px;
+            background: url(../img/chevron_white.svg) center center no-repeat;
+            margin-left: 8px;
+            transition: $transition;
         }
     }
     &__dropdown{
@@ -2277,13 +2277,9 @@ $color-gray: #969696;
         }
     }
     &_act{
-        box-shadow: 0px 8px 48px 2px rgba(0,0,0,0.12);
-        border: 1px solid #fff;
-        border-bottom: 1px solid #e5e5e5;
         z-index: 1000;
         &:hover{
-            border: 1px solid #fff;
-            border-bottom: 1px solid #e5e5e5;
+
         }
         .filter__dropdown{
             opacity: 1;
@@ -2291,7 +2287,7 @@ $color-gray: #969696;
             transform: translateX(0) translateY(0);
             box-shadow: 0px 8px 48px 2px rgba(0,0,0,0.12);
         }
-        .filter__title::after{
+        .filter__title span{
             transform: rotate(180deg);
         }
     }

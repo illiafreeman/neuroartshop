@@ -3085,7 +3085,6 @@ textarea::placeholder {
 
 .filter {
   width: calc(20% - 30px);
-  border: 1px solid #e5e5e5;
   position: relative;
   z-index: 100;
   transition: all 0.2s ease-in-out;
@@ -3133,33 +3132,34 @@ textarea::placeholder {
   top: 18px;
   right: 10px;
 }
-.filter:hover {
-  border: 1px solid #c8c8c8;
-}
 .filter__title {
-  height: 60px;
-  padding: 0 30px 0 20px;
-  justify-content: flex-start;
-  font-size: 13px;
-  text-transform: uppercase;
-  letter-spacing: 2px;
+  height: 54px;
+  justify-content: center;
+  font-size: 16px;
   position: relative;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
   z-index: 100;
+  font-family: Montserrat-Medium;
+  background: #000;
+  color: #fff;
   line-height: 1;
+  border-radius: 20px;
 }
 .filter__title:after {
   width: 10px;
   height: 10px;
   top: 25px;
   right: 15px;
-  background: url(../img/icon_arrow_footer_down.svg) center center no-repeat;
   transition: all 0.2s ease-in-out;
 }
 .filter__title span {
-  color: #969696;
-  padding-left: 3px;
+  display: flex;
+  width: 16px;
+  height: 16px;
+  background: url(../img/chevron_white.svg) center center no-repeat;
+  margin-left: 8px;
+  transition: all 0.2s ease-in-out;
 }
 .filter__dropdown {
   border: 2px solid #fff;
@@ -3177,14 +3177,7 @@ textarea::placeholder {
   opacity: 1 !important;
 }
 .filter_act {
-  box-shadow: 0px 8px 48px 2px rgba(0, 0, 0, 0.12);
-  border: 1px solid #fff;
-  border-bottom: 1px solid #e5e5e5;
   z-index: 1000;
-}
-.filter_act:hover {
-  border: 1px solid #fff;
-  border-bottom: 1px solid #e5e5e5;
 }
 .filter_act .filter__dropdown {
   opacity: 1;
@@ -3192,7 +3185,7 @@ textarea::placeholder {
   transform: translateX(0) translateY(0);
   box-shadow: 0px 8px 48px 2px rgba(0, 0, 0, 0.12);
 }
-.filter_act .filter__title::after {
+.filter_act .filter__title span {
   transform: rotate(180deg);
 }
 .filter__list {

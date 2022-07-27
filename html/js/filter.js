@@ -29,6 +29,10 @@ App.Filter = {
       sliders.ionRangeSlider({
       	skin: "round",
         grid: true,
+        min: 0,
+    max: 10000,
+    from: 0,
+    to: 5000,
         from_shadow: true,
         to_shadow: true,
         input_values_separator: App.Filter.range_separator,
