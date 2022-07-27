@@ -40,5 +40,14 @@ $(document).ready(function(){
         e.stopPropagation();
     });
 
+	$('.filter__cat input[type="checkbox"]').change(function(){
+        if (this.checked) {
+            $(this).parents('.filter__cat').addClass('filter__cat_act');
+        }else{
+            $(this).parents('.filter__cat').removeClass('filter__cat_act');
+        }
+    });
+
+    $('.filter__cat input[type="checkbox"]:checked').parents('.filter__cat').addClass('filter__cat_act');
 
 });
