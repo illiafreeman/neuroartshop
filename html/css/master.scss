@@ -1262,6 +1262,7 @@ line-height: 28px;
     display: flex;
     justify-content: start;
     flex-wrap: wrap;
+    margin-bottom: 80px;
 }
 .filter-item {
     font-family: Montserrat-Regular;
@@ -1280,7 +1281,7 @@ line-height: 28px;
 .catalog-item-group {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: flex-start;
     gap: 25px;
 }
 .catalog-item {
@@ -1288,7 +1289,9 @@ line-height: 28px;
     width: calc(25% - 25px);
     display: flex;
     flex-direction: column;
-
+    .add-card-btn{
+        align-self: center;
+    }
 }
 .catalog-item > img {
     position: relative;
@@ -1303,6 +1306,7 @@ line-height: 28px;
     color: #000;
     font-family: Montserrat-Regular;
     margin: 20px 0;
+    flex-grow: 1;
 }
 .catalog-item-price-group {
     width: 100%;
@@ -1318,7 +1322,7 @@ line-height: 28px;
     font-size: 22px;
     line-height: 34px;
     color: #000;
-    font-family: Montserrat-Medium;
+    font-family: Montserrat-Bold;
 }
 .catalog-item-past-price {
     font-weight: 400;
@@ -1328,7 +1332,17 @@ line-height: 28px;
     text-decoration: line-through;
     font-family: Montserrat-Medium;
 }
-
+.catalog-item__pic{
+    display: flex;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    img{
+        max-width: 100%;
+        max-height: 200px;
+        display: block;
+    }
+}
 
 
 .favourites-group {
