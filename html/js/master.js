@@ -28,14 +28,14 @@ $(document).ready(function(){
         $('.filter').not($(this).parents('.filter')).removeClass('filter_act');
         $(this).parents('.filter').toggleClass('filter_act');
     });
-	$('body').click(function () {
-        $('.filter').removeClass('filter_act');
-    });
-	$('.filter__dropdown').click(function (e) {
-        e.stopPropagation();
-        $('.filter').not($(this).parents('.filter')).removeClass('filter_act');
-        $(this).parents('.filter').toggleClass('filter_act');
-    });
+	// $('body').click(function () {
+    //     $('.filter').removeClass('filter_act');
+    // });
+	// $('.filter__dropdown').click(function (e) {
+    //     e.stopPropagation();
+    //     $('.filter').not($(this).parents('.filter')).removeClass('filter_act');
+    //     $(this).parents('.filter').toggleClass('filter_act');
+    // });
 	$('.filter').click(function (e) {
         e.stopPropagation();
     });

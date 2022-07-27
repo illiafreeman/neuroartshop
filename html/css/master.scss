@@ -1,3 +1,5 @@
+@import 'ion.rangeSlider.min';
+
 $transition: all 0.2s ease-in-out;
 $transition05: all 0.5s ease-in-out;
 
@@ -2156,11 +2158,15 @@ textarea {
     display: block;
     position: absolute;
 }
-$font-color: #111111;
+$font-color: #000;
 $color-gray: #969696;
 
 .filter-block{
     display: flex;
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+    border-bottom: 1px solid #000;
+    justify-content: space-between;
 }
 
 
@@ -2173,8 +2179,6 @@ $color-gray: #969696;
 
 .filter{
     width: calc(20% - 30px);
-    //width: 300px;
-    margin: 0 15px;
     border: 1px solid #e5e5e5;
     position: relative;
     z-index: 100;
