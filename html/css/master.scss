@@ -1292,7 +1292,7 @@ line-height: 28px;
     width: calc(25% - 25px);
     display: flex;
     flex-direction: column;
-    padding-bottom: 15px;
+    padding-bottom: 25px;
     transition: $transition;
     .add-card-btn{
         align-self: center;
@@ -1313,8 +1313,9 @@ line-height: 28px;
     text-decoration: none;
     color: #000;
     font-family: Montserrat-Regular;
-    margin: 20px 0;
+    margin: 0 0 20px;
     flex-grow: 1;
+    padding-top: 20px;
 }
 .catalog-item-price-group {
     width: 100%;

@@ -2103,7 +2103,7 @@ h2.h2-w {
   width: calc(25% - 25px);
   display: flex;
   flex-direction: column;
-  padding-bottom: 15px;
+  padding-bottom: 25px;
   transition: all 0.2s ease-in-out;
 }
 .catalog-item .add-card-btn {
@@ -2126,8 +2126,9 @@ h2.h2-w {
   text-decoration: none;
   color: #000;
   font-family: Montserrat-Regular;
-  margin: 20px 0;
+  margin: 0 0 20px;
   flex-grow: 1;
+  padding-top: 20px;
 }
 
 .catalog-item-price-group {
