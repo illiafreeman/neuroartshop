@@ -1881,7 +1881,7 @@ h2.h2-w {
 .footer-group {
   display: grid;
   grid-template-columns: auto 1fr auto;
-  gap: 130px;
+  gap: 80px;
   align-items: start;
   border-top: 1px solid #000;
   /*border-bottom: 1px solid #000;*/
