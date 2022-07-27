@@ -386,14 +386,16 @@
                     <div id="f5" class="filter">
                         <div class="filter__title">Цена товара<span></span></div>
                         <div class="filter__dropdown price-range">
-                            <div class="price-range-group-item">
-                                <input type="text" class="price-range-input range-min" value="65">
-                            </div>
-                            <div class="price-range-group-item price-range-group-item--separator">
-                                <span>—</span>
-                            </div>
-                            <div class="price-range-group-item">
-                                <input type="text" class="price-range-input text-end range-max" value="4600">
+                            <div class="price-range__wrap">
+                                <div class="price-range-group-item">
+                                    От&nbsp;<input type="text" class="price-range-input range-min" value="65">
+                                </div>
+                                <div class="price-range-group-item price-range-group-item--separator">
+                                    <span>&ndash;</span>
+                                </div>
+                                <div class="price-range-group-item">
+                                    До&nbsp;<input type="text" class="price-range-input text-end range-max" value="4600">
+                                </div>
                             </div>
                             <div class="w-100 mt-2">
                                 <input type="hidden" class="filter-range-slider" data-type="double" />
