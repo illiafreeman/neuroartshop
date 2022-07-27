@@ -2088,22 +2088,17 @@ h2.h2-w {
 }
 
 .catalog-item-group {
-  display: grid;
-  align-items: start;
-  grid-template-columns: 1fr 1fr 1fr;
-  row-gap: 41px;
-  align-items: stretch;
-  -moz-column-gap: 53px;
-       column-gap: 53px;
-  margin: 0 0 83px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 25px;
 }
 
 .catalog-item {
   position: relative;
-  width: 100%;
-  display: grid;
-  grid-auto-flow: row;
-  justify-items: center;
+  width: calc(25% - 25px);
+  display: flex;
+  flex-direction: column;
 }
 
 .catalog-item > img {
