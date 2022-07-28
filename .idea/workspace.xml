@@ -23,10 +23,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="722ecbfa-e904-434b-a86d-9272e1d3e0a6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/html/css/.sass-cache/be2a1e5ac0ee6a0a8afdc46a011b62caef5cc491/master.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/html/css/.sass-cache/be2a1e5ac0ee6a0a8afdc46a011b62caef5cc491/master.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/catalog.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/catalog.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/css/master.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/css/master.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/css/master.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/html/css/master.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/css/master.scss" beforeDir="false" afterPath="$PROJECT_DIR$/html/css/master.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/js/master.js" beforeDir="false" afterPath="$PROJECT_DIR$/html/js/master.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +68,7 @@
       <workItem from="1658664852038" duration="42000" />
       <workItem from="1658664900526" duration="19576000" />
       <workItem from="1658841600679" duration="4037000" />
-      <workItem from="1658926832138" duration="617000" />
+      <workItem from="1658926832138" duration="623000" />
     </task>
     <task id="LOCAL-00008" summary="index">
       <created>1658575740822</created>

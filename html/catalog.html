@@ -412,11 +412,25 @@
                         <img class="filter_back" src="./img/icon-arrow-left-black.svg" alt="">
                     </div>
                     <div class="filter_min-body">
-                        <div>Цена товара</div>
+                        <div class="price-range__wrap">
+                            <div class="price-range-group-item">
+                                От&nbsp;<input type="text" class="price-range-input range-min" value="65">
+                            </div>
+                            <div class="price-range-group-item price-range-group-item--separator">
+                                <span>&ndash;</span>
+                            </div>
+                            <div class="price-range-group-item">
+                                До&nbsp;<input type="text" class="price-range-input text-end range-max" value="4600">
+                            </div>
+                        </div>
+                        <div class="w-100 mt-2">
+                            <input type="hidden" class="filter-range-slider" data-type="double" />
+                        </div>
 
                     </div>
                     <div class="filter_min-foot">
-                        <div class="filter_min-btn">Показать все товары</div>
+                        <div class="filter_min-btn">Сбросить</div>
+                        <div class="filter_min-btn">Применить</div>
                     </div>
                 </div>
 
@@ -809,31 +823,7 @@
     <script src="./js/jquery_2.1.1.min.js" ></script>
     <script src="./js/master.js" ></script>
     <script src="./js/filter.js" ></script>
-    <!-- <script src="./js/ion.rangeSlider.min.js" ></script>
-    <script>
-        $(".js-range-slider").ionRangeSlider({
-            skin: "round",
-            type: "double",
-            min: 0,
-            max: 10000,
-            from: 0,
-            to: 5000,
-            grid: false,
-            force_edges: true,
-            postfix: ' p.',
-            // onFinish: function(data){
-            //     if((data.from) > (data.min) || (data.to) < (data.max)){
-            //         $('#f5').addClass('filter_sel');
-            //         $('#f5').find('.filter__action-button_ok').removeClass('filter__action-button_dis');
-            //     }else{
-            //         $('#f5').removeClass('filter_sel');
-            //         $('#f5').find('.filter__action-button_ok').addClass('filter__action-button_dis');
-            //     }
-            // }
-        });
-        $('.range').click(function(e){
-            e.stopPropagation();
-        });
-    </script> -->
+    <script src="./js/filter_min.js" ></script>
+
 </body>
 </html>

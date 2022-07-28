@@ -55,7 +55,7 @@ $(document).ready(function(){
 
 	$('.filter-btn').click(function(){
         $('#filter-start').toggleClass('vis');
-        $('body').toggleClass('oh');
+        $('body').addClass('oh');
     });
 	$('.filter_close').click(function(){
         $('#filter-start').removeClass('vis');
@@ -63,7 +63,7 @@ $(document).ready(function(){
     });
 	$('#filter-price').click(function(){
         $('#f5_min').toggleClass('vis');
-        $('body').toggleClass('oh');
+        $('body').addClass('oh');
     });
 	$('.filter_back').click(function(){
         $('.filter_min-sub').removeClass('vis');
