@@ -35,7 +35,7 @@ $(document).ready(function(){
     //     e.stopPropagation();
     //     $('.filter').not($(this).parents('.filter')).removeClass('filter_act');
     //     $(this).parents('.filter').toggleClass('filter_act');
-    // });
+    // });.filter_min
 	$('.filter').click(function (e) {
         e.stopPropagation();
     });
@@ -49,5 +49,17 @@ $(document).ready(function(){
     });
 
     $('.filter__cat input[type="checkbox"]:checked').parents('.filter__cat').addClass('filter__cat_act');
+
+
+
+
+	$('.filter-btn').click(function(){
+        $('#filter-start').toggleClass('vis');
+        $('body').toggleClass('oh');
+    });
+	$('.filter_close').click(function(){
+        $('#filter-start').removeClass('vis');
+		$('body').removeClass('oh');
+    });
 
 });

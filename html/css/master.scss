@@ -2446,9 +2446,12 @@ $color-gray: #969696;
     overflow: auto;
     background: #fff;
     z-index: 10000;
-    display: flex;
     flex-direction: column;
     min-height: 100vh;
+    display: none;
+    &.vis{
+        display: flex;
+    }
     &-head{
         height: 62px;
         min-height: 62px;
@@ -2481,7 +2484,7 @@ $color-gray: #969696;
             align-items: center;
             padding: 0 30px;
             font-family: Montserrat-Medium;
-            font-size: 16px;
+            font-size: 14px;
             cursor: pointer;
             transition: $transition;
             &:hover{
@@ -2870,6 +2873,9 @@ $color-gray: #969696;
     }
 } 
 @media(max-width: 764px) {
+    .filter_min-head h2 {
+        font-size: 17px !important;
+    }
     .about-company-content ul {
         font-size: 14px!important; 
     }
