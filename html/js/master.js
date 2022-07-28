@@ -61,12 +61,17 @@ $(document).ready(function(){
         $('#filter-start').removeClass('vis');
 		$('body').removeClass('oh');
     });
+	
+	$('.filter_back').click(function(){
+        $('.filter_min-sub').removeClass('vis');
+		$('body').removeClass('oh');
+    });
 	$('#filter-price').click(function(){
         $('#f5_min').toggleClass('vis');
         $('body').addClass('oh');
     });
-	$('.filter_back').click(function(){
-        $('.filter_min-sub').removeClass('vis');
-		$('body').removeClass('oh');
+	$('#f1_min').click(function(){
+        $('#f1_min-filter').toggleClass('vis');
+        $('body').addClass('oh');
     });
 });
