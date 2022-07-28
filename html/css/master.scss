@@ -2219,38 +2219,7 @@ $color-gray: #969696;
             cursor: pointer;
         }
     }
-    &-btn{
-        border: 1px solid #e5e5e5;
-        width: calc(50% - 30px);
-        margin: 0 15px;
-        display: none;
-        transition: $transition;
-        position: relative;
-        &:hover{
-            border: 1px solid #c8c8c8;
-        }
-        .filter__tit{
-            height: 60px;
-            padding: 0 30px 0 20px;
-            font-size: 13px;
-            text-transform: uppercase;
-            letter-spacing: 2px;
-            position: relative;
-            cursor: pointer;
-            transition: $transition;
-            z-index: 100;
-            line-height: 1;
-            @extend %flex;
-        }
-        &:after{
-            @extend %after;
-            background: url(../img/mobile_icon_filters.svg) center center no-repeat;
-            width: 25px;
-            height: 25px;
-            top: 18px;
-            right: 10px;
-        }
-    }
+
 
     &__title{
         height: 54px;
@@ -2442,7 +2411,32 @@ $color-gray: #969696;
 .price-range-group-item--separator{
     padding: 0 10px;
 }
-
+.filter-btn{
+    display: inline-flex;
+    width: 140px;
+    height: 54px;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    position: relative;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    z-index: 100;
+    font-family: Montserrat-Medium;
+    background: #000;
+    color: #fff;
+    line-height: 1;
+    border-radius: 27px;
+    margin-bottom: 24px;
+    span{
+        display: flex;
+        width: 16px;
+        height: 16px;
+        background: url(../img/icon-filter.svg) center center no-repeat;
+        margin-left: 8px;
+        transition: all 0.2s ease-in-out;
+    }
+}
 
 
 
@@ -2503,6 +2497,13 @@ $color-gray: #969696;
         grid-template-columns: auto 773px!important;
         width: 100%!important;
     }
+    .filter-block{
+        flex-wrap: wrap;
+    }
+    .filter {
+        width: 230px;
+        margin-bottom: 20px;
+    }
 }
 @media(max-width: 1180px) {
     .whom-group {
@@ -2560,6 +2561,26 @@ $color-gray: #969696;
 
 
 }
+@media(max-width: 1024px) {
+.filter-block {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
 @media(max-width: 960px) {
     .product-card-croup {
         grid-template-columns: 1fr!important;

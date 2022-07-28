@@ -3086,13 +3086,13 @@ textarea::placeholder {
   transform: rotate(180deg);
 }
 
-.filter__action, .filter__cat, .filter__title, .filter-btn .filter__tit {
+.filter__action, .filter__cat, .filter__title {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.filter__title:after, .filter-btn:after {
+.filter__title:after {
   content: "";
   display: block;
   position: absolute;
@@ -3124,36 +3124,6 @@ textarea::placeholder {
 }
 .filter_sel .filter__action-button {
   cursor: pointer;
-}
-.filter-btn {
-  border: 1px solid #e5e5e5;
-  width: calc(50% - 30px);
-  margin: 0 15px;
-  display: none;
-  transition: all 0.2s ease-in-out;
-  position: relative;
-}
-.filter-btn:hover {
-  border: 1px solid #c8c8c8;
-}
-.filter-btn .filter__tit {
-  height: 60px;
-  padding: 0 30px 0 20px;
-  font-size: 13px;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  position: relative;
-  cursor: pointer;
-  transition: all 0.2s ease-in-out;
-  z-index: 100;
-  line-height: 1;
-}
-.filter-btn:after {
-  background: url(../img/mobile_icon_filters.svg) center center no-repeat;
-  width: 25px;
-  height: 25px;
-  top: 18px;
-  right: 10px;
 }
 .filter__title {
   height: 54px;
@@ -3333,6 +3303,33 @@ textarea::placeholder {
   padding: 0 10px;
 }
 
+.filter-btn {
+  display: inline-flex;
+  width: 140px;
+  height: 54px;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  position: relative;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  z-index: 100;
+  font-family: Montserrat-Medium;
+  background: #000;
+  color: #fff;
+  line-height: 1;
+  border-radius: 27px;
+  margin-bottom: 24px;
+}
+.filter-btn span {
+  display: flex;
+  width: 16px;
+  height: 16px;
+  background: url(../img/icon-filter.svg) center center no-repeat;
+  margin-left: 8px;
+  transition: all 0.2s ease-in-out;
+}
+
 @media (max-width: 1280px) {
   .container {
     padding: 0 20px !important;
@@ -3346,6 +3343,13 @@ textarea::placeholder {
   .about-company-group {
     grid-template-columns: auto 773px !important;
     width: 100% !important;
+  }
+  .filter-block {
+    flex-wrap: wrap;
+  }
+  .filter {
+    width: 230px;
+    margin-bottom: 20px;
   }
 }
 @media (max-width: 1180px) {
@@ -3399,6 +3403,11 @@ textarea::placeholder {
   .cart-group-price {
     justify-items: start;
     justify-content: start;
+  }
+}
+@media (max-width: 1024px) {
+  .filter-block {
+    display: none;
   }
 }
 @media (max-width: 960px) {
