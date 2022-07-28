@@ -61,5 +61,12 @@ $(document).ready(function(){
         $('#filter-start').removeClass('vis');
 		$('body').removeClass('oh');
     });
-
+	$('#filter-price').click(function(){
+        $('#f5_min').toggleClass('vis');
+        $('body').toggleClass('oh');
+    });
+	$('.filter_back').click(function(){
+        $('.filter_min-sub').removeClass('vis');
+		$('body').removeClass('oh');
+    });
 });

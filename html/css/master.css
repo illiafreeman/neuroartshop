@@ -3304,7 +3304,7 @@ textarea::placeholder {
 }
 
 .filter-btn {
-  display: inline-flex;
+  display: none;
   width: 140px;
   height: 54px;
   justify-content: center;
@@ -3486,6 +3486,9 @@ textarea::placeholder {
 @media (max-width: 1024px) {
   .filter-block {
     display: none;
+  }
+  .filter-btn {
+    display: inline-flex;
   }
 }
 @media (max-width: 960px) {

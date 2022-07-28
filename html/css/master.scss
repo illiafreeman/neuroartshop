@@ -2412,7 +2412,7 @@ $color-gray: #969696;
     padding: 0 10px;
 }
 .filter-btn{
-    display: inline-flex;
+    display: none;
     width: 140px;
     height: 54px;
     justify-content: center;
@@ -2640,6 +2640,9 @@ $color-gray: #969696;
 @media(max-width: 1024px) {
 .filter-block {
     display: none;
+}
+.filter-btn {
+    display: inline-flex;
 }
 
 
