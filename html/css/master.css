@@ -3340,7 +3340,7 @@ textarea::placeholder {
   background: #fff;
   z-index: 10000;
   flex-direction: column;
-  min-height: 100vh;
+  min-height: 80vh;
   display: none;
 }
 .filter_min.vis {
@@ -3387,6 +3387,7 @@ textarea::placeholder {
   background: rgba(0, 0, 0, 0.04);
 }
 .filter_min-foot {
+  margin: auto auto 0 auto;
   padding: 0 20px 40px;
   display: flex;
 }
