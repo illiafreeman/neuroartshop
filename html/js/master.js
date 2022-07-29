@@ -90,5 +90,5 @@ $(document).ready(function(){
 });
 $(document).on('click','.vis-min .filter__title span',function(){
 	$('.filter').removeClass('vis-min');
-	$('body').removeClass('oh');
+	//$('body').removeClass('oh');
 });
