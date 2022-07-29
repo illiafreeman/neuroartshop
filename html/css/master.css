@@ -3340,7 +3340,6 @@ textarea::placeholder {
   background: #fff;
   z-index: 10000;
   flex-direction: column;
-  min-height: 100vh;
   display: none;
 }
 .filter_min.vis {
