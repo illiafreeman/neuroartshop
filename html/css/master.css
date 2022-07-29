@@ -3410,6 +3410,10 @@ textarea::placeholder {
   color: #fff;
 }
 
+.filter_min-foot {
+  display: none;
+}
+
 @media (max-width: 1280px) {
   .container {
     padding: 0 20px !important;
@@ -3548,6 +3552,9 @@ textarea::placeholder {
   .vis-min.filter_act .filter__dropdown {
     box-shadow: none;
   }
+  .filter_min-foot {
+    display: flex;
+  }
   .filter-btn {
     display: inline-flex;
   }
@@ -3559,6 +3566,9 @@ textarea::placeholder {
   }
   .filter__cat::before {
     left: 15px;
+  }
+  .filter__list {
+    max-height: 400px;
   }
 }
 @media (max-width: 960px) {
