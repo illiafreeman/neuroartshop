@@ -3387,9 +3387,15 @@ textarea::placeholder {
   background: rgba(0, 0, 0, 0.04);
 }
 .filter_min-foot {
-  margin: auto auto 0 auto;
-  padding: 0 20px 40px;
+  padding: 20px;
   display: flex;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  justify-content: center;
+  z-index: 1000;
+  background: #fff;
 }
 .filter_min-btn {
   font-family: Montserrat-Regular;
