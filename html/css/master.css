@@ -3585,6 +3585,9 @@ textarea::placeholder {
     line-height: 12px;
     padding: 6px 8px;
   }
+  .price-range__wrap {
+    justify-content: center;
+  }
 }
 @media (max-width: 960px) {
   .product-card-croup {
