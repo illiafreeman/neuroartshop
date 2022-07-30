@@ -1278,6 +1278,7 @@ h1.h1-product-card {
   line-height: 27px;
   color: #000000;
   font-family: Montserrat-Medium;
+  margin: 0 0 18px;
 }
 
 h1 {
@@ -2329,9 +2330,36 @@ h2.h2-w {
 
 .product-card-croup {
   display: flex;
+  margin-bottom: 110px;
 }
 .product-card-croup .product-pic {
   width: 400px;
+  min-width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 30px;
+}
+.product-card-croup .product-pic img {
+  max-width: 300px;
+}
+
+.dfl {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.add-fav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 46px;
+  width: 46px;
+  border: 1px solid #000;
+  border-radius: 50%;
+  margin-left: 40px;
+  cursor: pointer;
 }
 
 .product-card-croup > img {
@@ -2340,12 +2368,8 @@ h2.h2-w {
 }
 
 .product-card-content {
-  display: grid;
-  gap: 18px;
-  grid-auto-flow: row;
-  align-items: start;
-  justify-items: start;
-  align-content: start;
+  display: flex;
+  flex-direction: column;
 }
 
 .product-card-content-nav {
@@ -2407,14 +2431,14 @@ h2.h2-w {
   font-size: 22px;
   line-height: 27px;
   font-family: Montserrat-Regular;
+  margin-bottom: 42px;
 }
 
 .product-price {
-  font-weight: 700;
   font-size: 36px;
-  margin: 32px 0;
+  margin: 0 0 42px;
   line-height: 34px;
-  font-family: Montserrat-Regular;
+  font-family: Montserrat-Bold;
 }
 
 .product-info {
@@ -2422,8 +2446,8 @@ h2.h2-w {
   font-size: 18px;
   line-height: 22px;
   font-family: Montserrat-Regular;
+  margin-bottom: 30px;
 }
-
 .cart-group {
   display: grid;
   grid-auto-flow: row;
