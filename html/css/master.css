@@ -2218,7 +2218,7 @@ h2.h2-w {
 .contact-us-group {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 70px;
+  gap: 10px;
   align-items: start;
 }
 
@@ -2230,27 +2230,32 @@ h2.h2-w {
 }
 
 .contact-us-title {
-  font-weight: 700;
+  font-weight: 600;
   font-size: 42px;
   line-height: 46px;
-  font-family: Montserrat-Regular;
+  font-family: Montserrat-Medium;
   color: #2DC6CB;
-}
-
-.contact-us-content > a {
-  color: #000;
-  font-family: Montserrat-Regular;
-  text-decoration: none;
+  margin-bottom: 10px;
 }
 
 .contact-us-content > span {
   color: #000;
+  font-family: Montserrat-Medium;
+  text-decoration: none;
+  font-size: 26px;
+  line-height: 22px;
+}
+.contact-us-content > span a {
   font-family: Montserrat-Regular;
+  color: #000;
   text-decoration: none;
 }
-
-.contact-us-content > a > span {
-  font-weight: bold;
+.contact-us-content > span a:hover {
+  text-decoration: underline;
+}
+.contact-us-content > span span {
+  font-family: Montserrat-Regular;
+  color: #000;
 }
 
 .map-block {
@@ -2288,7 +2293,7 @@ h2.h2-w {
 }
 
 .contact-us-text-title {
-  font-weight: 700;
+  font-weight: 600;
   font-size: 36px;
   line-height: 38px;
   font-family: FactorAMedium-Regular;
@@ -2297,13 +2302,17 @@ h2.h2-w {
 .contact-us-text-wrapper p {
   font-size: 29px;
   line-height: 38px;
-  font-family: Montserrat-Regular;
+  font-family: Montserrat-Medium;
 }
 
-.contact-us-text-wrapper ol {
+.contact-us-text-wrapper ul {
   font-size: 19px;
-  line-height: 38px;
+  line-height: 28px;
   font-family: Montserrat-Regular;
+  margin: 16px 0 30px;
+}
+.contact-us-text-wrapper ul li {
+  margin-bottom: 16px;
 }
 
 .purple {
