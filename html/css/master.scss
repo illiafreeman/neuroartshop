@@ -1151,6 +1151,7 @@ line-height: 28px;
     font-family: Montserrat-Regular;
     font-size: 20px;
     line-height: 22px;
+    padding-left: 19px;
 }
 .about-company-content-wrapper {
     display: grid;
@@ -2808,6 +2809,9 @@ $color-gray: #969696;
 
 
 @media(max-width: 960px) {
+    .about-company-content ul{
+        padding-left: 12px;
+    }
     .product-card-croup {
         grid-template-columns: 1fr!important;
         gap: 41px!important;

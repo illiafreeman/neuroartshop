@@ -1960,6 +1960,7 @@ h2.h2-w {
   font-family: Montserrat-Regular;
   font-size: 20px;
   line-height: 22px;
+  padding-left: 19px;
 }
 
 .about-company-content-wrapper {
@@ -3654,6 +3655,9 @@ textarea::placeholder {
   }
 }
 @media (max-width: 960px) {
+  .about-company-content ul {
+    padding-left: 12px;
+  }
   .product-card-croup {
     grid-template-columns: 1fr !important;
     gap: 41px !important;
