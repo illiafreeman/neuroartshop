@@ -2328,9 +2328,10 @@ h2.h2-w {
 }
 
 .product-card-croup {
-  display: grid;
-  grid-template-columns: 402px 1fr;
-  gap: 150px;
+  display: flex;
+}
+.product-card-croup .product-pic {
+  width: 400px;
 }
 
 .product-card-croup > img {
@@ -3656,7 +3657,7 @@ textarea::placeholder {
 }
 @media (max-width: 960px) {
   .about-company-content ul {
-    padding-left: 12px;
+    padding-left: 14px;
   }
   .product-card-croup {
     grid-template-columns: 1fr !important;

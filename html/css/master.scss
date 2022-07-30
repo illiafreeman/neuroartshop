@@ -1496,9 +1496,10 @@ line-height: 28px;
 
 
 .product-card-croup {
-    display: grid;
-    grid-template-columns: 402px 1fr;
-    gap: 150px;
+    display: flex;
+    .product-pic{
+        width: 400px;
+    }
 }
 .product-card-croup > img {
     position: relative;
@@ -2810,7 +2811,7 @@ $color-gray: #969696;
 
 @media(max-width: 960px) {
     .about-company-content ul{
-        padding-left: 12px;
+        padding-left: 14px;
     }
     .product-card-croup {
         grid-template-columns: 1fr!important;
