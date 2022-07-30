@@ -1943,7 +1943,6 @@ h2.h2-w {
   position: relative;
   display: grid;
   justify-content: space-between;
-  align-items: center;
 }
 
 .about-company-content p {
