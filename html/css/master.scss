@@ -2603,7 +2603,11 @@ $color-gray: #969696;
 
 
 
-
+@media(max-width: 1400px) {
+    .title-group {
+        grid-template-columns: 1fr !important;
+      }
+}
 
 
 

@@ -3466,6 +3466,11 @@ textarea::placeholder {
   cursor: pointer;
 }
 
+@media (max-width: 1400px) {
+  .title-group {
+    grid-template-columns: 1fr !important;
+  }
+}
 @media (max-width: 1280px) {
   .container {
     padding: 0 20px !important;
