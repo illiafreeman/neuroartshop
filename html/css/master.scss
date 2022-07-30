@@ -1479,7 +1479,7 @@ line-height: 28px;
     font-size: 19px;
     line-height: 28px;
     font-family: Montserrat-Regular;
-    margin: 16px 0 30px;
+    margin: 16px 0 40px;
     li{
         margin-bottom: 16px;
     }
@@ -3044,6 +3044,36 @@ $color-gray: #969696;
         font-size: 14px;
         line-height: 17px;
     }
+    .contact-us-title {
+        font-size: 26px;
+        line-height: 36px;
+    }
+    .contact-us-content > span {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .contact-us-content{
+        margin-bottom: 20px;
+    }
+    .contact-us-text-group {
+        margin: 40px 0 0 0;
+    }
+    .contact-us-content {
+        width: 100%;
+        gap: 18px;
+    }
+    .contact-us-text-title {
+        font-size: 26px;
+        line-height: 36px;
+    }
+    .contact-us-text-wrapper p, .contact-us-text-wrapper ul li {
+        font-size: 16px;
+        line-height: 20px;
+      }
+      .contact-us-text-wrapper ul{
+        margin: 22px 0 40px;
+      }
+      
 } 
 @media(max-width: 764px) {
     .filter_min-head h2 {
@@ -3535,7 +3565,10 @@ line-height: 16px;
     .filter-item-group{
         margin-bottom: 30px;
     }
-
+    .contact-us-title, .contact-us-text-title {
+        font-size: 18px;
+        line-height: 24px;
+      }
 
 
 
