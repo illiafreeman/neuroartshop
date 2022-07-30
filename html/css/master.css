@@ -3657,7 +3657,7 @@ textarea::placeholder {
 }
 @media (max-width: 960px) {
   .about-company-content ul {
-    padding-left: 14px;
+    padding-left: 16px;
   }
   .product-card-croup {
     grid-template-columns: 1fr !important;
