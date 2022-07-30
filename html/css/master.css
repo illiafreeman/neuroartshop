@@ -3912,6 +3912,14 @@ textarea::placeholder {
   .contact-us-text-wrapper ul {
     margin: 22px 0 40px;
   }
+  .about-company-title {
+    font-size: 26px;
+    line-height: 36px;
+  }
+  .about-company-content p, .about-company-content ul li {
+    font-size: 14px;
+    line-height: 17px;
+  }
 }
 @media (max-width: 764px) {
   .filter_min-head h2 {
@@ -4409,6 +4417,13 @@ textarea::placeholder {
   .contact-us-title, .contact-us-text-title {
     font-size: 18px;
     line-height: 24px;
+  }
+  .about-company-title {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .about-company-image-wrapper img {
+    width: 200px;
   }
 }
 @media (max-width: 480px) {
