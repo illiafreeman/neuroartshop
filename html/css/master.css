@@ -2378,6 +2378,7 @@ h2.h2-w {
   grid-auto-flow: column;
   justify-content: start;
   gap: 40px;
+  margin-bottom: 30px;
 }
 
 .product-card-content-nav > li {
@@ -2398,6 +2399,9 @@ h2.h2-w {
   font-size: 18px;
   line-height: 22px;
   font-family: Montserrat-Regular;
+}
+.product-content-item p {
+  margin-top: 0;
 }
 
 .product-advantages {
@@ -3547,6 +3551,10 @@ textarea::placeholder {
 
 .jq-star {
   margin-right: 4px;
+}
+
+.my-rating-8 {
+  margin-bottom: 40px;
 }
 
 @media (max-width: 1400px) {

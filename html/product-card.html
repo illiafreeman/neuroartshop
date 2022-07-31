@@ -20,6 +20,8 @@
     <title>Product</title>
 
     <link rel="stylesheet" href="./css/star-rating-svg.css">
+    <link rel="stylesheet" href="./css/slick.css">
+    <link rel="stylesheet" href="./css/slick-theme.css">
     <link rel="stylesheet" href="./css/master.css">
     
     
@@ -406,7 +408,7 @@
                         <li>Отзывы</li>
                     </ul>
                     <div class="product-content">
-                        <div style="display: none;" class="product-content-item">
+                        <div class="product-content-item">
                             <p>Это камуфлирующая база безупречного молочного оттенка, идеальная для создания эффекта фарфоровых ногтей.</p>
 
                             <p>
@@ -427,7 +429,7 @@
                                 Используя поверхностное натяжение, стягивай каплю к свободному краю. Проделай то же самое в зоне боковых валиков.
                             </p>
                         </div>
-                        <div style="display: grid;" class="product-content-item">
+                        <div class="product-content-item">
                             <div class="comment-list">
                                 <div class="comment-item">
                                     <ul class="comment-rate">
@@ -526,6 +528,17 @@
                             <h2 class="rate-h2">Оставить отзыв</h2>
                             <p class="rate-p">Ваша оценка*</p>
                             <div class="my-rating-8"></div>
+                            <form action="" class="order-form">
+                                <input type="text" placeholder="ФИО*">
+                                <input type="text" placeholder="E-mail*">
+                                <textarea name="" placeholder="Текст отзыва*"></textarea>
+                                <input class="btn" type="submit" value="Оставить отзыв">
+                            </form>
+
+
+
+
+
                         </div>
                     </div>
                 </div>
@@ -557,61 +570,94 @@
                 <div class="popular-products-wrapper">
                     <div class="popular-products-group">
                         <div class="popular-products-item">
-                            <img src="./img/slider/popular-products/1.png" alt="">
-                            <div class="popular-products-title">
-                                КМИЗ, Фреза алмазная 
-                                "Пламя" 021, синяя
-                            </div>
+                            <a href="">
+                                <img src="./img/slider/popular-products/1.png" alt="">
+                                <span class="popular-products-title">
+                                    КМИЗ, Фреза алмазная 
+                                    "Пламя" 021, синяяКМИЗ, Фреза алмазная 
+                                    "Пламя" 021, синяяКМИЗ, Фреза алмазная 
+                                    "Пламя" 021, синяяКМИЗ, Фреза алмазная 
+                                    "Пламя" 021, синяя
+                                </span>
+                            </a>
                             <div class="popular-products-price-group">
                                 <div class="popular-products-price">119 ₽</div>
                                 <div class="past-price">119 ₽</div>
                             </div>
-                            <div class="add-card-btn">Добавить в корзину</div>
+                            <div class="add-card-btn">В корзину</div>
                         </div>
                         <div class="popular-products-item">
-                            <div class="popular-products-item">
+                            <a href="">
                                 <img src="./img/slider/popular-products/2.png" alt="">
-                                <div class="popular-products-title">
+                                <span class="popular-products-title">
                                     КМИЗ, Фреза алмазная 
                                     "Пламя" 021, синяя
-                                </div>
-                                <div class="popular-products-price-group">
-                                    <div class="popular-products-price">119 ₽</div>
-                                    <div class="past-price">119 ₽</div>
-                                </div>
-                                <div class="add-card-btn">Добавить в корзину</div>
+                                </span>
+                            </a>
+                            <div class="popular-products-price-group">
+                                <div class="popular-products-price">119 ₽</div>
+                                <div class="past-price">119 ₽</div>
                             </div>
+                            <div class="add-card-btn">В корзину</div>
                         </div>
                         <div class="popular-products-item">
-                            <div class="popular-products-item">
+                            <a href="">
                                 <img src="./img/slider/popular-products/3.png" alt="">
-                                <div class="popular-products-title">
+                                <span class="popular-products-title">
                                     КМИЗ, Фреза алмазная 
                                     "Пламя" 021, синяя
-                                </div>
-                                <div class="popular-products-price-group">
-                                    <div class="popular-products-price">119 ₽</div>
-                                    <div class="past-price">119 ₽</div>
-                                </div>
-                                <div class="add-card-btn">Добавить в корзину</div>
+                                </span>
+                            </a>
+                            <div class="popular-products-price-group">
+                                <div class="popular-products-price">119 ₽</div>
+                                <div class="past-price">119 ₽</div>
                             </div>
+                            <div class="add-card-btn">В корзину</div>
                         </div>
                         <div class="popular-products-item">
-                            <div class="popular-products-item">
+                            <a href="">
                                 <img src="./img/slider/popular-products/4.png" alt="">
-                                <div class="popular-products-title">
+                                <span class="popular-products-title">
                                     КМИЗ, Фреза алмазная 
                                     "Пламя" 021, синяя
-                                </div>
-                                <div class="popular-products-price-group">
-                                    <div class="popular-products-price">119 ₽</div>
-                                    <div class="past-price">119 ₽</div>
-                                </div>
-                                <div class="add-card-btn">Добавить в корзину</div>
+                                </span>
+                            </a>
+                            <div class="popular-products-price-group">
+                                <div class="popular-products-price">119 ₽</div>
+                                <div class="past-price">119 ₽</div>
                             </div>
+                            <div class="add-card-btn">В корзину</div>
                         </div>
+                        <div class="popular-products-item">
+                            <a href="">
+                                <img src="./img/slider/popular-products/1.png" alt="">
+                                <span class="popular-products-title">
+                                    КМИЗ, Фреза алмазная 
+                                    "Пламя" 021, синяя
+                                </span>
+                            </a>
+                            <div class="popular-products-price-group">
+                                <div class="popular-products-price">119 ₽</div>
+                                <div class="past-price">119 ₽</div>
+                            </div>
+                            <div class="add-card-btn">В корзину</div>
+                        </div>
+                        <div class="popular-products-item">
+                            <a href="">
+                                <img src="./img/slider/popular-products/2.png" alt="">
+                                <span class="popular-products-title">
+                                    КМИЗ, Фреза алмазная 
+                                    "Пламя" 021, синяя
+                                </span>
+                            </a>
+                            <div class="popular-products-price-group">
+                                <div class="popular-products-price">119 ₽</div>
+                                <div class="past-price">119 ₽</div>
+                            </div>
+                            <div class="add-card-btn">В корзину</div>
+                        </div>
+
                     </div>
-                    
                 </div>
             </div>
         </section>
@@ -648,8 +694,9 @@
         </div>
     </footer>
     <script src="./js/jquery_2.1.1.min.js" ></script>
-    <!-- <script src="./js/product-card-nav.js" ></script> -->
+    <script src="./js/product-card-nav.js" ></script>
     <script src="./js/jquery.star-rating-svg.js" ></script>
+    <script src="./js/slick.min.js" ></script>
     <script src="./js/master.js" ></script>
     <script>
         $(function() {
@@ -664,6 +711,37 @@
                 }
             });
         });
+        $('.popular-products-group').slick({
+                infinite: true,
+                slidesToShow: 4,
+                slidesToScroll: 4,
+                responsive: [
+                    {
+                    breakpoint: 960,
+                    settings: {
+                        centerMode: true,
+                        arrows: false,
+                        slidesToShow: 3
+                    }
+                    },
+                    {
+                    breakpoint: 600,
+                    settings: {
+                        arrows: false,
+                        centerMode: true,
+                        slidesToShow: 2
+                    }
+                    },
+                    {
+                        breakpoint: 480,
+                        settings: {
+                        arrows: false,
+                        centerMode: true,
+                        slidesToShow: 1
+                        }
+                    }
+                ]
+            });
     </script>
 </body>
 </html>
