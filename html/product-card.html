@@ -405,7 +405,7 @@
                         <li>Отзывы</li>
                     </ul>
                     <div class="product-content">
-                        <div class="product-content-item">
+                        <div style="display: none;" class="product-content-item">
                             <p>Это камуфлирующая база безупречного молочного оттенка, идеальная для создания эффекта фарфоровых ногтей.</p>
 
                             <p>
@@ -426,8 +426,40 @@
                                 Используя поверхностное натяжение, стягивай каплю к свободному краю. Проделай то же самое в зоне боковых валиков.
                             </p>
                         </div>
-                        <div class="product-content-item">
-                            Отзывы
+                        <div style="display: grid;" class="product-content-item">
+                            <div class="comment-list">
+                                <div class="comment-item">
+                                    <ul class="comment-rate">
+                                        <li>
+                                            <svg>
+                                                <use xlink:href="img/sprite.svg#icon-star"></use>
+                                            </svg>
+                                        </li>
+                                        <li>
+                                            <svg>
+                                                <use xlink:href="img/sprite.svg#icon-star"></use>
+                                            </svg>
+                                        </li>
+                                        <li>
+                                            <svg>
+                                                <use xlink:href="img/sprite.svg#icon-star"></use>
+                                            </svg>
+                                        </li>
+                                        <li>
+                                            <svg>
+                                                <use xlink:href="img/sprite.svg#icon-star"></use>
+                                            </svg>
+                                        </li>
+                                        <li>
+                                            <svg>
+                                                <use xlink:href="img/sprite.svg#icon-star-empty"></use>
+                                            </svg>
+                                        </li>
+                                    </ul>
+                                    <div class="comment-name"></div>
+                                    <div class="comment-text">Огромное спасибо за выбор гель-лаков. Результат превзошел все ожидания!</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -550,7 +582,7 @@
         </div>
     </footer>
     <script src="./js/jquery_2.1.1.min.js" ></script>
-    <script src="./js/product-card-nav.js" ></script>
+    <!-- <script src="./js/product-card-nav.js" ></script> -->
     <script src="./js/master.js" ></script>
 </body>
 </html>

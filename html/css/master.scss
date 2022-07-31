@@ -1544,7 +1544,7 @@ line-height: 28px;
 }
 .product-card-content-nav > li {
     list-style-type: none;
-    font-family: Montserrat-Medium;
+    font-family: Montserrat-Regular;
     font-weight: 400;
     font-size: 22px;
     line-height: 27px;
@@ -2599,11 +2599,25 @@ $color-gray: #969696;
 .favourites-item-close{
     cursor: pointer;
 }
+.comment-list{
 
+}
+.comment-item{
 
+}
+.comment-rate{
+    li{
+        svg{
 
+        }
+    }
+}
+.comment-name{
 
-
+}
+.comment-text{
+    
+}
 
 
 
