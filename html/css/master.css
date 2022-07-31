@@ -2115,6 +2115,7 @@ h2.h2-w {
 }
 .drop-list-content ul {
   margin: 20px 0;
+  padding: 0 24px;
 }
 .drop-list-content ul li {
   list-style-type: disc;
@@ -4155,6 +4156,9 @@ textarea::placeholder {
   }
 }
 @media (max-width: 764px) {
+  .drop-list-content ul {
+    padding-left: 15px !important;
+  }
   .auth .btn {
     padding: 12px 18px;
   }

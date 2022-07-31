@@ -1305,6 +1305,7 @@ line-height: 28px;
     }
     ul{
         margin: 20px 0;
+        padding: 0 24px;
         li{
             list-style-type: disc;
         }
@@ -3314,6 +3315,9 @@ line-height: 16px;
       
 } 
 @media(max-width: 764px) {
+    .drop-list-content ul {
+        padding-left: 15px !important;
+      }
     .auth .btn {
         padding: 12px 18px;
     }
