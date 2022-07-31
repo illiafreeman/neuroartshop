@@ -19,6 +19,7 @@
 
     <title>Product</title>
 
+    <link rel="stylesheet" href="./css/star-rating-svg.css">
     <link rel="stylesheet" href="./css/master.css">
     
     
@@ -456,10 +457,75 @@
                                             </svg>
                                         </li>
                                     </ul>
-                                    <div class="comment-name"></div>
+                                    <div class="comment-name">Антонина</div>
                                     <div class="comment-text">Огромное спасибо за выбор гель-лаков. Результат превзошел все ожидания!</div>
                                 </div>
+                                <div class="comment-item">
+                                    <ul class="comment-rate">
+                                        <li>
+                                            <svg>
+                                                <use xlink:href="img/sprite.svg#icon-star"></use>
+                                            </svg>
+                                        </li>
+                                        <li>
+                                            <svg>
+                                                <use xlink:href="img/sprite.svg#icon-star"></use>
+                                            </svg>
+                                        </li>
+                                        <li>
+                                            <svg>
+                                                <use xlink:href="img/sprite.svg#icon-star"></use>
+                                            </svg>
+                                        </li>
+                                        <li>
+                                            <svg>
+                                                <use xlink:href="img/sprite.svg#icon-star"></use>
+                                            </svg>
+                                        </li>
+                                        <li>
+                                            <svg>
+                                                <use xlink:href="img/sprite.svg#icon-star"></use>
+                                            </svg>
+                                        </li>
+                                    </ul>
+                                    <div class="comment-name">Афдотья</div>
+                                    <div class="comment-text">спасибо</div>
+                                </div>
+                                <div class="comment-item">
+                                    <ul class="comment-rate">
+                                        <li>
+                                            <svg>
+                                                <use xlink:href="img/sprite.svg#icon-star"></use>
+                                            </svg>
+                                        </li>
+                                        <li>
+                                            <svg>
+                                                <use xlink:href="img/sprite.svg#icon-star"></use>
+                                            </svg>
+                                        </li>
+                                        <li>
+                                            <svg>
+                                                <use xlink:href="img/sprite.svg#icon-star-empty"></use>
+                                            </svg>
+                                        </li>
+                                        <li>
+                                            <svg>
+                                                <use xlink:href="img/sprite.svg#icon-star-empty"></use>
+                                            </svg>
+                                        </li>
+                                        <li>
+                                            <svg>
+                                                <use xlink:href="img/sprite.svg#icon-star-empty"></use>
+                                            </svg>
+                                        </li>
+                                    </ul>
+                                    <div class="comment-name">Капитолина Владимировна из Казани</div>
+                                    <div class="comment-text">Огромное спасибо за выбор гель-лаков. Результат превзошел все ожидания! за выбор гель-лаков. Результат превзошел все ожидания!</div>
+                                </div>
                             </div>
+                            <h2 class="rate-h2">Оставить отзыв</h2>
+                            <p class="rate-p">Ваша оценка*</p>
+                            <div class="my-rating-8"></div>
                         </div>
                     </div>
                 </div>
@@ -583,6 +649,17 @@
     </footer>
     <script src="./js/jquery_2.1.1.min.js" ></script>
     <!-- <script src="./js/product-card-nav.js" ></script> -->
+    <script src="./js/jquery.star-rating-svg.js" ></script>
     <script src="./js/master.js" ></script>
+    <script>
+        $(function() {
+            $(".my-rating-8").starRating({
+                useFullStars: true,
+                callback: function(currentRating, $el){
+                    console.log('rated ' + currentRating);
+                }
+            });
+        });
+    </script>
 </body>
 </html>
