@@ -931,6 +931,25 @@ main {
   align-items: center;
 }
 
+.mobile-soc-group-icons a {
+  position: relative;
+}
+.mobile-soc-group-icons a span {
+  display: flex;
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  top: -9px;
+  right: -12px;
+  background: red;
+  color: #fff;
+  font-family: Montserrat-Regular;
+  font-size: 10px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
 .middle-nav a {
   font-family: Montserrat-Regular;
   font-weight: 400;
@@ -943,6 +962,21 @@ main {
   align-items: center;
   transition: all 0.2s ease-in-out;
   margin-left: 22px;
+}
+.middle-nav a span {
+  display: flex;
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  top: -9px;
+  right: -12px;
+  background: red;
+  color: #fff;
+  font-family: Montserrat-Regular;
+  font-size: 10px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
 }
 .middle-nav a svg {
   fill: #000;

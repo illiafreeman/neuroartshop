@@ -183,6 +183,27 @@ main {
     align-items: center;
     
 }
+.mobile-soc-group-icons{
+    a{
+        position: relative;
+        span{
+            display: flex;
+            width: 16px;
+            height: 16px;
+            position: absolute;
+            top: -9px;
+            right: -12px;
+            background: red;
+            color: #fff;
+            font-family: Montserrat-Regular;
+            font-size: 10px;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+        }
+    }
+    
+}
 .middle-nav a {
     font-family: Montserrat-Regular;
     font-weight: 400;
@@ -195,6 +216,21 @@ main {
     align-items: center;
     transition: $transition;
     margin-left: 22px;
+    span{
+        display: flex;
+        width: 16px;
+        height: 16px;
+        position: absolute;
+        top: -9px;
+        right: -12px;
+        background: red;
+        color: #fff;
+        font-family: Montserrat-Regular;
+        font-size: 10px;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+    }
     svg{
         fill: #000;
         width: 22px;
