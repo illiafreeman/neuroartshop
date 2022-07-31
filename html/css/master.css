@@ -3649,6 +3649,10 @@ textarea::placeholder {
   .favourites-price {
     justify-content: start;
   }
+  .comment-list {
+    display: flex;
+    gap: 50px;
+  }
 }
 @media (max-width: 1024px) {
   .filter {
@@ -3742,6 +3746,10 @@ textarea::placeholder {
   }
   .price-range__wrap {
     justify-content: center;
+  }
+  .comment-list {
+    display: flex;
+    gap: 20px;
   }
 }
 @media (max-width: 960px) {
@@ -4019,8 +4027,63 @@ textarea::placeholder {
     font-size: 14px;
     line-height: 17px;
   }
+  .product-card-croup .product-pic {
+    width: 250px;
+    min-width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+  }
+  .product-card-croup .product-pic img {
+    max-width: 200px;
+  }
+  .product-card-content-nav > li {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .product-content-item {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .comment-list {
+    display: flex;
+    flex-direction: column;
+  }
+  .comment-item {
+    width: 100%;
+    padding: 20px;
+  }
+  .comment-rate {
+    margin: 0 0 15px;
+  }
+  .comment-name {
+    font-size: 18px;
+    line-height: 20px;
+  }
+  .comment-text {
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+  }
+  .product-advantages {
+    gap: 50px;
+  }
 }
 @media (max-width: 764px) {
+  .popular-products-wrapper {
+    padding: 0 0 20px;
+  }
+  .rate-p {
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 20px;
+    font-family: Montserrat-Regular;
+  }
+  .rate-h2 {
+    margin: 50px 0;
+  }
   .filter_min-head h2 {
     font-size: 17px !important;
   }
@@ -4384,8 +4447,47 @@ textarea::placeholder {
     width: 16px;
     height: 16px;
   }
+  h1.h1-product-card {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
+    font-family: Montserrat-Medium;
+    margin: 0 0 10px;
+  }
+  .article {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: Montserrat-Regular;
+    margin-bottom: 25px;
+  }
+  .product-price {
+    font-size: 28px;
+    margin: 0 0 8px;
+    line-height: 34px;
+    font-family: Montserrat-Bold;
+  }
+  .product-info {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: Montserrat-Regular;
+    margin-bottom: 30px;
+  }
+  .product-card-croup {
+    grid-template-columns: 1fr !important;
+    gap: 10px !important;
+  }
+  .product-card-croup {
+    display: flex;
+    margin-bottom: 40px;
+  }
 }
 @media (max-width: 600px) {
+  .product-popular .container_popular {
+    border-bottom: 0;
+  }
   .radio-item_nw label {
     width: 200px;
   }
@@ -4523,6 +4625,20 @@ textarea::placeholder {
   }
   .about-company-image-wrapper img {
     width: 200px;
+  }
+  .product-card-croup {
+    flex-direction: column;
+    gap: 0;
+  }
+  .product-card-croup .product-pic {
+    width: 100%;
+    min-width: 100%;
+    margin: 0;
+  }
+  .dfl {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
 @media (max-width: 480px) {
