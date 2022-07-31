@@ -4155,6 +4155,9 @@ textarea::placeholder {
   }
 }
 @media (max-width: 764px) {
+  .auth .btn {
+    padding: 12px 18px;
+  }
   .popular-products-wrapper {
     padding: 0 0 20px;
   }
