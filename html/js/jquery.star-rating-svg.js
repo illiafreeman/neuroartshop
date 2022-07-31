@@ -20,8 +20,7 @@
     starShape: 'straight',
     emptyColor: 'lightgray',
     hoverColor: 'orange',
-    activeColor: 'gold',
-    ratedColor: 'crimson',
+
     useGradient: true,
     readOnly: false,
     disableAfterRate: true,

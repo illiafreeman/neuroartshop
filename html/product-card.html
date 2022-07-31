@@ -655,6 +655,10 @@
         $(function() {
             $(".my-rating-8").starRating({
                 useFullStars: true,
+                hoverColor: '#FC8FB6',
+                activeColor:'#FC8FB6',
+                ratedColor:'#FC8FB6',
+                starSize: 35,
                 callback: function(currentRating, $el){
                     console.log('rated ' + currentRating);
                 }

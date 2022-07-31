@@ -3545,6 +3545,10 @@ textarea::placeholder {
   font-family: Montserrat-Regular;
 }
 
+.jq-star {
+  margin-right: 4px;
+}
+
 @media (max-width: 1400px) {
   .title-group {
     grid-template-columns: 1fr !important;
