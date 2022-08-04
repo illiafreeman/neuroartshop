@@ -956,6 +956,13 @@ main {
   line-height: 17px;
   margin-top: 20px;
 }
+.auth-sub-sub {
+  font-family: Montserrat-Regular;
+  font-size: 14px;
+  line-height: 17px;
+  margin-top: 20px;
+  font-weight: 400;
+}
 
 .auth .btn {
   padding: 19px 36px;
@@ -4180,6 +4187,10 @@ textarea::placeholder {
   }
 }
 @media (max-width: 764px) {
+  .product-price span {
+    font-size: 16px;
+    line-height: 24px;
+  }
   .drop-list-content ul {
     padding-left: 15px !important;
   }
