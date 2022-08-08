@@ -1131,7 +1131,7 @@ main {
   -moz-column-count: 5;
        column-count: 5;
   display: block;
-  z-index: 1000;
+  z-index: 100000;
   padding: 40px;
   opacity: 0;
   visibility: hidden;
@@ -1213,6 +1213,7 @@ main {
 .catalog:hover .catalog__submenu {
   opacity: 1;
   visibility: visible;
+  z-index: 10000;
 }
 
 a:active,
