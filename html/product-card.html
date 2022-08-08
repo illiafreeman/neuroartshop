@@ -524,6 +524,99 @@
                                     <div class="comment-name">Капитолина Владимировна из Казани</div>
                                     <div class="comment-text">Огромное спасибо за выбор гель-лаков. Результат превзошел все ожидания! за выбор гель-лаков. Результат превзошел все ожидания!</div>
                                 </div>
+                                <div class="comment-item">
+                                    <ul class="comment-rate">
+                                        <li>
+                                            <svg>
+                                                <use xlink:href="img/sprite.svg#icon-star"></use>
+                                            </svg>
+                                        </li>
+                                        <li>
+                                            <svg>
+                                                <use xlink:href="img/sprite.svg#icon-star"></use>
+                                            </svg>
+                                        </li>
+                                        <li>
+                                            <svg>
+                                                <use xlink:href="img/sprite.svg#icon-star"></use>
+                                            </svg>
+                                        </li>
+                                        <li>
+                                            <svg>
+                                                <use xlink:href="img/sprite.svg#icon-star"></use>
+                                            </svg>
+                                        </li>
+                                        <li>
+                                            <svg>
+                                                <use xlink:href="img/sprite.svg#icon-star-empty"></use>
+                                            </svg>
+                                        </li>
+                                    </ul>
+                                    <div class="comment-name">Антонина</div>
+                                    <div class="comment-text">Огромное спасибо за выбор гель-лаков. Результат превзошел все ожидания!</div>
+                                </div>
+                                <div class="comment-item">
+                                    <ul class="comment-rate">
+                                        <li>
+                                            <svg>
+                                                <use xlink:href="img/sprite.svg#icon-star"></use>
+                                            </svg>
+                                        </li>
+                                        <li>
+                                            <svg>
+                                                <use xlink:href="img/sprite.svg#icon-star"></use>
+                                            </svg>
+                                        </li>
+                                        <li>
+                                            <svg>
+                                                <use xlink:href="img/sprite.svg#icon-star"></use>
+                                            </svg>
+                                        </li>
+                                        <li>
+                                            <svg>
+                                                <use xlink:href="img/sprite.svg#icon-star"></use>
+                                            </svg>
+                                        </li>
+                                        <li>
+                                            <svg>
+                                                <use xlink:href="img/sprite.svg#icon-star"></use>
+                                            </svg>
+                                        </li>
+                                    </ul>
+                                    <div class="comment-name">Афдотья</div>
+                                    <div class="comment-text">спасибо</div>
+                                </div>
+                                <div class="comment-item">
+                                    <ul class="comment-rate">
+                                        <li>
+                                            <svg>
+                                                <use xlink:href="img/sprite.svg#icon-star"></use>
+                                            </svg>
+                                        </li>
+                                        <li>
+                                            <svg>
+                                                <use xlink:href="img/sprite.svg#icon-star"></use>
+                                            </svg>
+                                        </li>
+                                        <li>
+                                            <svg>
+                                                <use xlink:href="img/sprite.svg#icon-star-empty"></use>
+                                            </svg>
+                                        </li>
+                                        <li>
+                                            <svg>
+                                                <use xlink:href="img/sprite.svg#icon-star-empty"></use>
+                                            </svg>
+                                        </li>
+                                        <li>
+                                            <svg>
+                                                <use xlink:href="img/sprite.svg#icon-star-empty"></use>
+                                            </svg>
+                                        </li>
+                                    </ul>
+                                    <div class="comment-name">Капитолина Владимировна из Казани</div>
+                                    <div class="comment-text">Огромное спасибо за выбор гель-лаков. Результат превзошел все ожидания! за выбор гель-лаков. Результат превзошел все ожидания!</div>
+                                </div>
                             </div>
                             <h2 class="rate-h2">Оставить отзыв</h2>
                             <p class="rate-p">Ваша оценка*</p>
@@ -712,36 +805,70 @@
             });
         });
         $('.popular-products-group').slick({
-                infinite: true,
-                slidesToShow: 4,
-                slidesToScroll: 4,
-                responsive: [
-                    {
-                    breakpoint: 960,
+            infinite: true,
+            slidesToShow: 4,
+            slidesToScroll: 4,
+            responsive: [
+                {
+                breakpoint: 960,
+                settings: {
+                    centerMode: true,
+                    arrows: false,
+                    slidesToShow: 3
+                }
+                },
+                {
+                breakpoint: 600,
+                settings: {
+                    arrows: false,
+                    centerMode: true,
+                    slidesToShow: 2
+                }
+                },
+                {
+                    breakpoint: 480,
                     settings: {
-                        centerMode: true,
-                        arrows: false,
-                        slidesToShow: 3
+                    arrows: false,
+                    centerMode: true,
+                    slidesToShow: 1
                     }
-                    },
-                    {
-                    breakpoint: 600,
+                }
+            ]
+        });
+        
+        $(document).on("click", ".product-card-content-nav > li", function () {
+            $('.comment-list').slick({
+            infinite: true,
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            responsive: [
+                {
+                breakpoint: 1200,
+                settings: {
+                    centerMode: true,
+                    arrows: false,
+                    slidesToShow: 2
+                }
+                },
+                {
+                breakpoint: 600,
+                settings: {
+                    arrows: false,
+                    centerMode: true,
+                    slidesToShow: 2
+                }
+                },
+                {
+                    breakpoint: 480,
                     settings: {
-                        arrows: false,
-                        centerMode: true,
-                        slidesToShow: 2
+                    arrows: false,
+                    centerMode: true,
+                    slidesToShow: 1
                     }
-                    },
-                    {
-                        breakpoint: 480,
-                        settings: {
-                        arrows: false,
-                        centerMode: true,
-                        slidesToShow: 1
-                        }
-                    }
-                ]
-            });
+                }
+            ]
+        });
+        });
     </script>
 </body>
 </html>

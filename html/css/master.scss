@@ -1647,14 +1647,33 @@ line-height: 28px;
     cursor: pointer;
     padding: 0 0 8px 0;
 }
+.product-content{
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
 .product-content-item {
     display: none;
     font-weight: 400;
     font-size: 18px;
     line-height: 22px;
     font-family: Montserrat-Regular;
+    padding: 0 80px;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
     p{
         margin-top: 0;
+    }
+    .slick-prev {
+        left: -78px;
+        border: 1px solid #e689aa;
+    }
+    .slick-next {
+        right: -78px;
+        border: 1px solid #e689aa;
     }
 }
 .product-advantages {
@@ -2721,15 +2740,15 @@ $color-gray: #969696;
     cursor: pointer;
 }
 .comment-list{
-    display: flex;
-    gap: 90px;
-    justify-content: space-between;
+    //display: flex;
+    //gap: 90px;
+    //justify-content: space-between;
 }
 .comment-item{
     background: rgba(0, 0, 0, 0.04);
     border-radius: 20px;
     padding: 70px 24px;
-    width: 33.333%;
+    margin: 0 10px;
 }
 .comment-rate{
     display: flex;
@@ -2892,9 +2911,16 @@ $color-gray: #969696;
       .favourites-price {
         justify-content: start;
       }
-      .comment-list {
-        display: flex;
-        gap: 50px;
+      .product-content-item{
+        padding: 0;
+      }
+      .product-card-content-group{
+        max-width: 100%;
+        overflow: hidden;
+      }
+      .container{
+        max-width: 100%;
+        overflow: hidden;
       }
 
 }

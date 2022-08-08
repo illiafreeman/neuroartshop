@@ -12,7 +12,7 @@ for(let i = 0; i < product_card_content_nav.children.length; i++) {
             product_content.children[b].style.display = 'none';
             product_card_content_nav.children[b].style.borderBottom = 'none';
         };
-        product_content.children[i].style.display = 'grid';
+        product_content.children[i].style.display = 'block';
         product_card_content_nav.children[i].style.borderBottom = '1px solid #000';
     };
 };
