@@ -1779,6 +1779,17 @@ h2.h2-w {
   color: #fff;
 }
 
+.btn_dis {
+  color: #a8a5a5;
+  border-color: transparent;
+}
+.btn_dis:hover {
+  color: #a8a5a5;
+  border-color: transparent;
+  background: transparent;
+  cursor: not-allowed;
+}
+
 .most-popular-group {
   position: relative;
   width: 100%;
@@ -2453,6 +2464,14 @@ h2.h2-w {
   border-radius: 50%;
   margin-left: 40px;
   cursor: pointer;
+}
+.add-fav svg {
+  width: 24px;
+  height: 24px;
+  fill: #fff;
+}
+.add-fav.act svg {
+  fill: #000 !important;
 }
 
 .product-card-croup > img {

@@ -36,8 +36,8 @@ $(document).ready(function(){
     //     $('.filter').not($(this).parents('.filter')).removeClass('filter_act');
     //     $(this).parents('.filter').toggleClass('filter_act');
     // });.filter_min
-	$('.filter').click(function (e) {
-        //e.stopPropagation();
+	$('.add-fav').click(function (e) {
+        $(this).toggleClass('act');
     });
 
 	$('.filter__cat input[type="checkbox"]').change(function(){

@@ -984,7 +984,16 @@ h2.h2-w {
     background-color: #000;
     color: #fff;
 }
-
+.btn_dis{
+    color: #a8a5a5;
+    border-color: transparent;
+    &:hover{
+        color: #a8a5a5;
+        border-color: transparent;
+        background: transparent;
+        cursor: not-allowed;
+    }
+}
 
 .most-popular-group {
     position: relative;
@@ -1621,6 +1630,16 @@ h2.h2-w {
     border-radius: 50%;
     margin-left: 40px;
     cursor: pointer;
+    svg{
+        width: 24px;
+        height: 24px;
+        fill: #fff;
+    }
+    &.act{
+        svg{
+            fill: #000 !important;
+        }
+    }
 }
 .product-card-croup > img {
     position: relative;
