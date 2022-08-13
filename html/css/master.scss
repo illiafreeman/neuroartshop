@@ -288,11 +288,16 @@ main {
         border-radius: 50%;
     }
     svg{
-        fill: #000;
+        fill: #fff;
         width: 22px;
         height: 22px;
         transition: $transition;
         margin-left: 10px;
+    }
+    &:first-child{
+        svg{
+            fill: #000;
+        }
     }
     &:before {
         content: "";

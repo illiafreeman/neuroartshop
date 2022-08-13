@@ -1035,11 +1035,14 @@ main {
   border-radius: 50%;
 }
 .middle-nav a svg {
-  fill: #000;
+  fill: #fff;
   width: 22px;
   height: 22px;
   transition: all 0.2s ease-in-out;
   margin-left: 10px;
+}
+.middle-nav a:first-child svg {
+  fill: #000;
 }
 .middle-nav a:before {
   content: "";
