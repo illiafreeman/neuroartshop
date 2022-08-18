@@ -2817,7 +2817,32 @@ $color-gray: #969696;
 .my-rating-8{
     margin-bottom: 40px;
 }
-
+.note{
+    position: fixed;
+    display: flex;
+    top: 100px;
+    left: 50%;
+    margin-left: -100px;
+    background: #000;
+    color: #fff;
+    font-family: Montserrat-Regular;
+    padding: 8px 8px;
+    border-radius: 10px;
+    font-size: 13px;
+    flex-wrap: nowrap;
+    width: 200px;
+    justify-content: center;
+    
+    transition: $transition;
+    visibility: hidden;
+    transform: translateY(-50px);
+    opacity: 0;
+    &.act{
+        visibility: visible;
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
 
 
 
