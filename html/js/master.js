@@ -92,7 +92,7 @@ $(document).on('click','.vis-min .filter__title span',function(){
 	$('.filter').removeClass('vis-min');
 	//$('body').removeClass('oh');
 });
-$(document).on('click','.add-card-btn',function(){
+$(document).on('click','.add-card-btn:not(.btn_dis)',function(){
 	$('.note').addClass('act');
     setTimeout(function(){
         $('.note').removeClass('act');
