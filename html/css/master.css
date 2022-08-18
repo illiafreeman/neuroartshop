@@ -3447,7 +3447,7 @@ textarea::placeholder {
   padding: 20px 10px;
 }
 
-.irs-to, .irs-from, .irs-max, .irs-single {
+.irs-to, .irs-from, .irs-max, .irs-single, .irs-min {
   display: none;
 }
 
