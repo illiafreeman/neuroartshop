@@ -1169,6 +1169,23 @@ main {
   height: 22px;
   transition: all 0.2s ease-in-out;
 }
+.main-nav span.act .submenu {
+  opacity: 1;
+  visibility: visible;
+  z-index: 10000;
+}
+.main-nav span.act .catalog__submenu {
+  opacity: 1;
+  visibility: visible;
+  z-index: 10000;
+}
+.main-nav span.act:before {
+  width: calc(100% - 22px);
+  left: 0;
+}
+.main-nav span.act svg {
+  transform: rotate(180deg);
+}
 
 .catalog svg {
   width: 22px;
@@ -3844,7 +3861,6 @@ textarea::placeholder {
   }
   .container {
     max-width: 100%;
-    overflow: hidden;
   }
 }
 @media (max-width: 1024px) {

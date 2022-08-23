@@ -98,3 +98,6 @@ $(document).on('click','.add-card-btn:not(.btn_dis)',function(){
         $('.note').removeClass('act');
       }, 2000);
 });
+$(document).on('click','.main-nav span',function(){
+	$(this).toggleClass('act');
+});

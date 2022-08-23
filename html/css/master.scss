@@ -427,6 +427,25 @@ main {
         height: 22px;
         transition: $transition;
     }
+    &.act{
+        .submenu{
+            opacity: 1;
+            visibility: visible;
+            z-index: 10000;
+        }
+        .catalog__submenu{
+            opacity: 1;
+            visibility: visible;
+            z-index: 10000;
+        }
+        &:before {
+            width: calc(100% - 22px);
+            left: 0;
+        }
+        svg{
+            transform: rotate(180deg);
+        }
+    }
 }
 
 .catalog{
@@ -2977,7 +2996,7 @@ $color-gray: #969696;
       }
       .container{
         max-width: 100%;
-        overflow: hidden;
+        //overflow: hidden;
       }
 
 }
