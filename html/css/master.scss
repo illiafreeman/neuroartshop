@@ -562,7 +562,7 @@ label:focus{
     width: 100%;
     max-width: 1210px;
     position: relative;
-    display: grid;
+    display: block;
     align-items: center;
 }
 .slider-control {
@@ -660,8 +660,14 @@ h2.h2-w {
     line-height: 46px;
     margin-bottom: 80px;
 }
+.container_slider{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
 .slider-item{
     position: relative;
+    display: block;
     h2{
         position: absolute;
         bottom: 0px;
@@ -2868,7 +2874,9 @@ $color-gray: #969696;
         opacity: 1;
     }
 }
-
+.section-wrapper_slider{
+    display: block;
+}
 
 
 
@@ -2895,7 +2903,13 @@ $color-gray: #969696;
         grid-template-columns: 1fr !important;
       }
 }
-
+@media(max-width: 1300px) {
+    .container_slider{
+        width: 100%;
+        max-width: 100%;
+        padding: 0 20px !important;
+    }
+}
 
 
 

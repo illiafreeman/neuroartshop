@@ -1312,7 +1312,7 @@ label:focus {
   width: 100%;
   max-width: 1210px;
   position: relative;
-  display: grid;
+  display: block;
   align-items: center;
 }
 
@@ -1420,8 +1420,15 @@ h2.h2-w {
   margin-bottom: 80px;
 }
 
+.container_slider {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
 .slider-item {
   position: relative;
+  display: block;
 }
 .slider-item h2 {
   position: absolute;
@@ -3760,9 +3767,20 @@ textarea::placeholder {
   opacity: 1;
 }
 
+.section-wrapper_slider {
+  display: block;
+}
+
 @media (max-width: 1400px) {
   .title-group {
     grid-template-columns: 1fr !important;
+  }
+}
+@media (max-width: 1300px) {
+  .container_slider {
+    width: 100%;
+    max-width: 100%;
+    padding: 0 20px !important;
   }
 }
 @media (max-width: 1280px) {
