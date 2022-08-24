@@ -1448,6 +1448,9 @@ h2.h2-w {
   left: 32px;
   font-size: 36px;
 }
+.slider-item img {
+  width: 100%;
+}
 
 .slick-arrow {
   display: block;
