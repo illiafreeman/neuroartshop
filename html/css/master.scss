@@ -690,6 +690,69 @@ h2.h2-w {
         width: 100%;
     }
 }
+.show_more{
+    border: 1px solid #000000;
+    border-radius: 30px;
+    padding: 11px 26px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    cursor: pointer;
+    text-align: center;
+    font-family: Montserrat-Regular;
+    display: inline-block;
+    transition: all 0.2s ease-in-out;
+	text-decoration: none;
+    color: #000000;
+}
+
+.show_more:hover {
+    background-color: #000;
+    color: #fff;
+}
+.prod_sub{
+    border: 1px solid #000000;
+    border-radius: 30px;
+    padding: 11px 26px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    cursor: pointer;
+    text-align: center;
+    font-family: Montserrat-Regular;
+    display: inline-block;
+    transition: all 0.2s ease-in-out;
+    text-decoration: none;
+    color: #000000;
+}
+.prod_sub:hover {
+    background-color: #000;
+    color: #fff;
+}
+.active_label::before{
+    background-size: cover;
+    background-image: url(../img/radio_act.svg)!important;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+	/*background: url(../img/radio_act.svg) 0 0 no-repeat!important;*/
+}
+.autocomplete-group{
+	font-family: Montserrat-Medium;	
+}
+.autocomplete-suggestion{
+	font-family: Montserrat-Medium;	
+}
+a.add-card-btn{
+	text-decoration: none;
+	color: #000000;
+}
+a.add-card-btn:hover{
+	color: #ffffff;
+}
+.is-invalid{
+	border-color: #dc3545!important;
+}
+
 .subp,.remindpassword-form{
     font-family: Montserrat-Medium;
     margin-bottom: 60px;
